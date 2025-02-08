@@ -3,16 +3,43 @@ using UnityEngine;
 
 public class GravityArea : MonoBehaviour
 {
+	/// <summary>
+	/// bodies that gravity will be applied to
+	/// </summary>
     [SerializeField] private List<Rigidbody2D> bodies;
-    [SerializeField] private float Strength;
+	/// <summary>
+	/// strength of gravity applied to bodies
+	/// </summary>
+    [SerializeField] private float strength = 1;
+	/// <summary>
+	/// area that detects for bodies to apply gravity to
+	/// </summary>
+	[SerializeField] private CircleCollider2D areaOfEffect;
+	/// <summary>
+	/// percentage of gravity that should be applied when at the edge of the area of effect
+	/// 
+	/// as bodies approach the edge, gravity will equal: strength * gravityFalloff
+	/// </summary>
+	[SerializeField, Range(0.0f,1.0f)] private float gravityFalloff = 0.25f;
 
     void Update()
     {
         foreach (var body in bodies)
         {
-			body.AddForce((transform.position - body.transform.position) * Strength * Time.deltaTime, ForceMode2D.Impulse);
+			Vector2 direction = transform.position - body.transform.position;
+			float distance = Vector3.Distance(transform.position, body.transform.position);
+			float gravStrength = Mathf.Lerp( strength, strength * gravityFalloff, distance/areaOfEffect.radius);
+
+			body.AddForce(direction * gravStrength * Time.deltaTime, ForceMode2D.Impulse);
         }
     }
+
+	private void Reset()
+	{
+		areaOfEffect = GetComponent<CircleCollider2D>();
+		strength = 1;
+		gravityFalloff = 0.25f;
+	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -30,19 +57,23 @@ public class GravityArea : MonoBehaviour
 		}
 	}
 
-	private void OnCollisionEnter2D(Collision2D collision)
+	private void OnDrawGizmos()
 	{
-		if (collision.rigidbody)
-		{
+		// Area of effect of gravity
+		// also fully fallen off gravity
+		Gizmos.color = Color.green;
+		Gizmos.DrawWireSphere(transform.position, areaOfEffect.radius);
 
-		}
-	}
+		// 66% gravity fall off
+		Gizmos.color = Color.yellow;
+		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius, areaOfEffect.radius, 0.66f));
 
-	private void OnCollisionExit2D(Collision2D collision)
-	{
-		if (bodies.Contains(collision.rigidbody))
-		{
+		// 33% gravity fall off
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius, areaOfEffect.radius, 0.33f));
 
-		}
+		// full strength gravity
+		Gizmos.color = Color.magenta;
+		Gizmos.DrawWireSphere(transform.position, gravityFalloff * areaOfEffect.radius);
 	}
 }
