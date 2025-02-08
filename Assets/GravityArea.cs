@@ -63,7 +63,10 @@ public class GravityArea : MonoBehaviour
 		// also fully fallen off gravity
 		Gizmos.color = Color.green;
 		Gizmos.DrawWireSphere(transform.position, areaOfEffect.radius);
+	}
 
+	private void OnDrawGizmosSelected()
+	{
 		// 66% gravity fall off
 		Gizmos.color = Color.yellow;
 		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius, areaOfEffect.radius, 0.66f));
