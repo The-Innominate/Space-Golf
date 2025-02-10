@@ -5,11 +5,15 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
 	bool Dragging = false;
+	bool MouseDragging = false;
 	Vector3 dragStartPoint = Vector3.zero;
 	Vector3 dragEndPoint = Vector3.zero;
 
 	[SerializeField]
 	private float power;
+	[SerializeField]
+	private float minimumSpeed;
+
 	Rigidbody2D rb;
 	LineRenderer lr;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,6 +26,17 @@ public class PlayerScript : MonoBehaviour
 
 	// Update is called once per frame
 	void Update()
+	{
+		if (rb.linearVelocity.magnitude < minimumSpeed)
+		{
+			rb.linearVelocity = Vector3.zero;
+
+			TouchUpdate();
+			MouseUpdate();
+		}
+	}
+
+	private void TouchUpdate()
 	{
 		if (Input.touchCount > 0 && !Dragging)
 		{
@@ -43,28 +58,27 @@ public class PlayerScript : MonoBehaviour
 			Vector3[] linePoints = { transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0))) };
 			lr.SetPositions(linePoints);
 		}
+	}
 
+	private void MouseUpdate()
+	{
 		if (Input.GetMouseButtonDown(0))
 		{
-			dragStartPoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-			print("Start");
-			lr.enabled = true;
-			Dragging = true;
+			startMouseDragging();
 		}
 
 		if (Input.GetMouseButtonUp(0))
 		{
-			dragEndPoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+			endMouseDragging();
+		}
 
-			Vector2 forceDirection = dragStartPoint - dragEndPoint;
-			rb.AddForce(forceDirection * power, ForceMode2D.Impulse);
-
-			print("Adding force: " + forceDirection);
-
-			lr.enabled = false;
-			Dragging = false;
+		if (MouseDragging)
+		{
+			Vector3[] linePoints = { transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0))) };
+			lr.SetPositions(linePoints);
 		}
 	}
+
 	private void startDragging(Touch touch)
 	{
 		Dragging = true;
@@ -83,5 +97,28 @@ public class PlayerScript : MonoBehaviour
 
 		lr.enabled = false;
 		Dragging = false;
+	}
+
+	private void startMouseDragging()
+	{
+		dragStartPoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+		print("Start");
+		lr.enabled = true;
+
+		MouseDragging = true;
+	}
+
+	private void endMouseDragging()
+	{
+		dragEndPoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+
+		Vector2 forceDirection = dragStartPoint - dragEndPoint;
+		rb.AddForce(forceDirection * power, ForceMode2D.Impulse);
+
+		print("Adding force: " + forceDirection);
+
+		lr.enabled = false;
+
+		MouseDragging = false;
 	}
 }
