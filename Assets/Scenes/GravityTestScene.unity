@@ -1426,6 +1426,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8822476693599842255, guid: 62def911d6053b740be640fcf5131ccb, type: 3}
+      propertyPath: angle
+      value: 186.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8822476693599842255, guid: 62def911d6053b740be640fcf5131ccb, type: 3}
+      propertyPath: magnitude
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8822476693599842255, guid: 62def911d6053b740be640fcf5131ccb, type: 3}
       propertyPath: startingVelocity.x
       value: -2.19
       objectReference: {fileID: 0}
