@@ -2,25 +2,31 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(LineRenderer))]
+[RequireComponent(typeof(Collider2D))]
 public class PlayerScript : MonoBehaviour
 {
 	bool Dragging = false;
 	bool MouseDragging = false;
 	Vector3 dragStartPoint = Vector3.zero;
 	Vector3 dragEndPoint = Vector3.zero;
+	Vector3 LastShotPosition = Vector3.zero;
 
 	[SerializeField]
 	private float power;
 	[SerializeField]
 	private float minimumSpeed;
+	[SerializeField]
+	private Collider2D CamConfiner;
 
 	Rigidbody2D rb;
 	LineRenderer lr;
+	Collider2D col;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		lr = GetComponent<LineRenderer>();
+		col = rb.GetComponent<Collider2D>();
 		lr.enabled = false;
 	}
 
@@ -33,6 +39,11 @@ public class PlayerScript : MonoBehaviour
 
 			TouchUpdate();
 			MouseUpdate();
+		}
+
+		if (!CamConfiner.IsTouching(col)) 
+		{
+			resetShot();
 		}
 	}
 
@@ -92,6 +103,8 @@ public class PlayerScript : MonoBehaviour
 	{
 		dragEndPoint = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0));
 
+		LastShotPosition = transform.position;
+
 		Vector2 forceDirection = dragStartPoint - dragEndPoint;
 		rb.AddForce(forceDirection * power, ForceMode2D.Impulse);
 
@@ -112,6 +125,8 @@ public class PlayerScript : MonoBehaviour
 	{
 		dragEndPoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
 
+		LastShotPosition = transform.position;
+
 		Vector2 forceDirection = dragStartPoint - dragEndPoint;
 		rb.AddForce(forceDirection * power, ForceMode2D.Impulse);
 
@@ -120,5 +135,11 @@ public class PlayerScript : MonoBehaviour
 		lr.enabled = false;
 
 		MouseDragging = false;
+	}
+
+	private void resetShot()
+	{
+		transform.position = LastShotPosition;
+		rb.linearVelocity = Vector2.zero;
 	}
 }
