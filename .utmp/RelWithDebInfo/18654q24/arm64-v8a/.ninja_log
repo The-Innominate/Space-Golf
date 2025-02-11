@@ -1,0 +1,12 @@
+# ninja log v5
+93	706	7603903156571532	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	7b75b9f69aa229b4
+712	1126	7603903160972776	C:/Users/mflaugher/OneDrive - Neumont College of Computer Science/Neumont Stuff/Third Year/Q2/CSC130-SB/Space-Golf/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/18654q24/obj/arm64-v8a/libswappywrapper.so	d6f3670c1fe91656
+26	2481	7603903174412575	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	719e6c4879c82b27
+46	2520	7603903174779906	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	df5c678642fd063e
+17	2552	7603903175128841	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	5cb2664bcaf9446f
+58	2591	7603903175477672	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	334f0dc3ced5ceb5
+75	2719	7603903176986071	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4990fd1840b86554
+1	2845	7603903178131326	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	133da51b41423636
+36	3237	7603903182207151	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	fc53e1fab704d260
+9	3482	7603903184649987	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	eb20aa9ae0b3492
+3483	3670	7603903186552756	C:/Users/mflaugher/OneDrive - Neumont College of Computer Science/Neumont Stuff/Third Year/Q2/CSC130-SB/Space-Golf/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/18654q24/obj/arm64-v8a/libgame.so	8ef56e021e2e8077
