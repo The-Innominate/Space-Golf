@@ -8,9 +8,14 @@ public class MainMenuScript : MonoBehaviour
     public GameObject levelButtonPrefab;
     public GameObject levelButtonContainer;
 
-// Start is called before the first frame update, it's a default Unity method
+    private Transform cameraTransform;
+    private Transform cameraDesiredLookAt;
+
+
+    // Start is called before the first frame update, it's a default Unity method
     private void Start()
     {
+        cameraTransform = Camera.main.transform;
         /* The 'Resources.LoadAll' method is used to load all assets in a folder or file at the specified path.
 
             If you don't have a 'Resources' folder created you won't be able to load the assets this way.
@@ -30,8 +35,26 @@ public class MainMenuScript : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+        if(cameraDesiredLookAt != null)
+        {
+            cameraTransform.rotation = Quaternion.Slerp(cameraTransform.rotation, cameraDesiredLookAt.rotation, 3 * Time.deltaTime);
+        }
+    }
+
     private void LoadLevel(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void LookAtMenu(Transform menuTransform)
+    {
+        cameraDesiredLookAt = menuTransform;
     }
 }
