@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -41,7 +42,7 @@ public class PlayerScript : MonoBehaviour
 			MouseUpdate();
 		}
 
-		if (!CamConfiner.IsTouching(col)) 
+		if (CamConfiner && (!CamConfiner.IsTouching(col))) 
 		{
 			resetShot();
 		}
@@ -62,12 +63,16 @@ public class PlayerScript : MonoBehaviour
 				endDragging(touch);
 			}
 		}
+
 		if (Dragging)
 		{
-			Touch touch = Input.GetTouch(0);
+			if (Input.touchCount > 0)
+			{
+				Touch touch = Input.GetTouch(0);
+				Vector3[] linePoints = { transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0))) };
+				lr.SetPositions(linePoints);
+			}
 
-			Vector3[] linePoints = { transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0))) };
-			lr.SetPositions(linePoints);
 		}
 	}
 
