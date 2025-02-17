@@ -142,7 +142,7 @@ public class PlayerScript : MonoBehaviour
 		MouseDragging = false;
 	}
 
-	private void resetShot()
+	public void resetShot()
 	{
 		transform.position = LastShotPosition;
 		rb.linearVelocity = Vector2.zero;
