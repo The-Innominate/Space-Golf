@@ -6,7 +6,12 @@ public class PlayerWinCheck : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Winnable"))
         {
-            Debug.Log("You can win!");
+            //check if a canvas with the name "GameEndMenu" exists
+            if (GameObject.Find("GameEndMenu") != null)
+            {
+                //get the player win panel (child of canvas), and display it
+                GameObject.Find("GameEndMenu").transform.GetChild(0).gameObject.SetActive(true);
+            }
         }
     }
 }
