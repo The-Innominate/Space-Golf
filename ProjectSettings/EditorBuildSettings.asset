@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/GravityTestScene.unity
     guid: 2f80e14bf1357f64ca213343c6b4b9be
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level1.unity
+    guid: e2d5ce479cecd4948afc36abfae59d33
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b94644aa4c7ec9a428e453daa56099a2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
