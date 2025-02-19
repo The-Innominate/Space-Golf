@@ -529,6 +529,14 @@ PrefabInstance:
       propertyPath: CamConfiner
       value: 
       objectReference: {fileID: 1384291116}
+    - target: {fileID: 650832407786625320, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
+      propertyPath: minimumSpeed
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1392674130902972447, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2662543113848732763, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -573,6 +581,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7823609254425693863, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 6b9adbc035de5504fa828c9ac0ff4673, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1451,10 +1463,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1602496653923237276, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 4f14df6a677766242ad207d77b3e1a12, type: 2}
     - target: {fileID: 1897122806925842700, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.043126345
@@ -1503,14 +1511,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet7
       objectReference: {fileID: 0}
+    - target: {fileID: 4776588547374485692, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
+      propertyPath: m_TagString
+      value: Planet
+      objectReference: {fileID: 0}
+    - target: {fileID: 6479308663242145866, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
+      propertyPath: m_Radius
+      value: 21.34
+      objectReference: {fileID: 0}
     - target: {fileID: 6864332269970728455, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
       propertyPath: strength
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6864332269970728455, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
       propertyPath: gravityFalloff
-      value: 0.5
+      value: 0.515
       objectReference: {fileID: 0}
+    - target: {fileID: 7142611790330610114, guid: 364ec3725bed086408ea35c9dede94af, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 4f14df6a677766242ad207d77b3e1a12, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Winnable
+  - Planet
   layers:
   - Default
   - TransparentFX

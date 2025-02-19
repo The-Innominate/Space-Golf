@@ -147,4 +147,20 @@ public class PlayerScript : MonoBehaviour
 		transform.position = LastShotPosition;
 		rb.linearVelocity = Vector2.zero;
 	}
+
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.collider.tag.Equals("Planet"))
+		{
+			rb.linearDamping = 2;
+		}
+	}
+
+	private void OnCollisionExit2D(Collision2D collision)
+	{
+		if (collision.collider.tag.Equals("Planet"))
+		{
+			rb.linearDamping = 0;
+		}
+	}
 }
