@@ -22,17 +22,19 @@ public class GravityArea : MonoBehaviour
 	/// </summary>
 	[SerializeField, Range(0.0f,1.0f)] private float gravityFalloff = 0.25f;
 
-    void Update()
-    {
-        foreach (var body in bodies)
-        {
-			Vector2 direction = transform.position - body.transform.position;
-			float distance = Vector3.Distance(transform.position, body.transform.position);
-			float gravStrength = Mathf.Lerp(strength, strength * gravityFalloff, Mathf.Sqrt(distance / (areaOfEffect.radius * transform.lossyScale.x)));
-
-			body.AddForce(direction * gravStrength * Time.deltaTime, ForceMode2D.Impulse);
-        }
-    }
+	void Update()
+	{
+		foreach (var body in bodies)
+		{
+			if (body.GetComponent<ObstacleScript>())
+			{
+				Vector2 direction = transform.position - body.transform.position;
+				float distance = Vector3.Distance(transform.position, body.transform.position);
+				float gravStrength = Mathf.Lerp(strength, strength * gravityFalloff, distance / (areaOfEffect.radius * transform.lossyScale.x));
+				body.GetComponent<ObstacleScript>().TryApplyGravity(direction * gravStrength, distance);
+			}
+		}
+	}
 
 	private void Reset()
 	{

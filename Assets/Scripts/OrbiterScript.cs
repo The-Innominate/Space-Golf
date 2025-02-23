@@ -78,7 +78,7 @@ public class OrbiterScript : MonoBehaviour
 			Gizmos.DrawLine(whoIOrbit.position + (Vector3)offset + rotOffset2, whoIOrbit.position + (Vector3)offset + rotOffset3);
 			Gizmos.DrawLine(whoIOrbit.position + (Vector3)offset + rotOffset3, whoIOrbit.position + (Vector3)offset + rotOffset);
 
-			Gizmos.DrawWireSphere(startrotoffset, 0.5f);
+			Gizmos.DrawWireSphere(whoIOrbit.position + startrotoffset, 0.5f);
 		}
 	}
 }
