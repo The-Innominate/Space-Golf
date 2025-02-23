@@ -23,17 +23,18 @@ public class ObstacleScript : MonoBehaviour
 
 	private void LateUpdate()
 	{
+		Vector3 usedforce = Vector3.zero;
 		if (forces.Count == 0)
 		{
 			return;
 		}
 		else if (forces.Count == 1)
 		{
-			rb.AddForce(forces[0].Item1 * Time.deltaTime, ForceMode2D.Impulse);
+			usedforce = forces[0].Item1;
+			rb.AddForce(usedforce * ((Vector3.Dot(usedforce.normalized, rb.linearVelocity.normalized) / 2.0f) + 1.0f) * Time.deltaTime, ForceMode2D.Impulse);
 		}
 		else
 		{
-			Vector3 usedforce = Vector3.zero;
 			float distance = float.MaxValue;
 
 			foreach (var force in forces)
@@ -45,7 +46,9 @@ public class ObstacleScript : MonoBehaviour
 				}
 			}
 
-			rb.AddForce(usedforce * Time.deltaTime, ForceMode2D.Impulse);
+			Debug.Log(((Vector3.Dot(usedforce.normalized, rb.linearVelocity.normalized) / 2.0f) + 1.0f));
+
+			rb.AddForce(usedforce * ((Vector3.Dot(usedforce.normalized, rb.linearVelocity.normalized) / 2.0f) + 1.0f) * Time.deltaTime, ForceMode2D.Impulse);
 		}
 		forces.Clear();
 	}
