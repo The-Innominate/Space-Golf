@@ -160,7 +160,7 @@ public class PlayerScript : MonoBehaviour
 	{
 		if (collision.collider.tag.Equals("Planet"))
 		{
-			rb.linearDamping = 0;
+			rb.linearDamping = 0.1f;
 		}
 	}
 }

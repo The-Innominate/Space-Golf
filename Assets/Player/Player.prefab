@@ -248,7 +248,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.15
   m_GravityScale: 0
-  m_Material: {fileID: 6200000, guid: 6b9adbc035de5504fa828c9ac0ff4673, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 2
-  minimumSpeed: 0.1
+  minimumSpeed: 0.15
   CamConfiner: {fileID: 0}
 --- !u!120 &2220702414318061023
 LineRenderer:
