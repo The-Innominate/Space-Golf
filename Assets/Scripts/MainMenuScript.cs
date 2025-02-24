@@ -33,6 +33,9 @@ public class MainMenuScript : MonoBehaviour
             string sceneName = thumbnail.name;
             container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
         }
+
+        //reinstantiate the timescale to 1
+        Time.timeScale = 1;
     }
 
     private void Update()
