@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6773789375649308724}
   - component: {fileID: 5847045049498731949}
   - component: {fileID: 1003623452263166591}
+  - component: {fileID: 3391916537119378991}
   m_Layer: 0
   m_Name: BlackHole
   m_TagString: Untagged
@@ -190,8 +191,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.64
+  m_Offset: {x: -0.0075408816, y: -0.018852234}
+  m_Radius: 0.545739
 --- !u!114 &1003623452263166591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,3 +205,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81b6af3de82e4544a206b26b7ea1be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3391916537119378991
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397317092033300312}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc3d1cdfd46729547b00461b60fdef20, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -1,0 +1,4575 @@
+fileFormatVersion: 2
+guid: de994a8d6004c094a862556ad2a456d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 987330128501570178
+    second: bera-burucu-blackhole-x_0
+  - first:
+      213: 7616668733956287205
+    second: bera-burucu-blackhole-x_1
+  - first:
+      213: 2376042667578433700
+    second: bera-burucu-blackhole-x_2
+  - first:
+      213: 5625747193343620385
+    second: bera-burucu-blackhole-x_3
+  - first:
+      213: -2702970379456319875
+    second: bera-burucu-blackhole-x_4
+  - first:
+      213: 6238786310895371365
+    second: bera-burucu-blackhole-x_5
+  - first:
+      213: 4462464087283928323
+    second: bera-burucu-blackhole-x_6
+  - first:
+      213: -5854463056687464957
+    second: bera-burucu-blackhole-x_7
+  - first:
+      213: 292112701109596904
+    second: bera-burucu-blackhole-x_8
+  - first:
+      213: 2236810164096342485
+    second: bera-burucu-blackhole-x_9
+  - first:
+      213: 3121546815646679943
+    second: bera-burucu-blackhole-x_10
+  - first:
+      213: -9034737107898073927
+    second: bera-burucu-blackhole-x_11
+  - first:
+      213: -5966005345071235573
+    second: bera-burucu-blackhole-x_12
+  - first:
+      213: -3343771148390264473
+    second: bera-burucu-blackhole-x_13
+  - first:
+      213: 6883568839232649363
+    second: bera-burucu-blackhole-x_14
+  - first:
+      213: -1486000899684630563
+    second: bera-burucu-blackhole-x_15
+  - first:
+      213: 7253269161349876990
+    second: bera-burucu-blackhole-x_16
+  - first:
+      213: -1538204362288216040
+    second: bera-burucu-blackhole-x_17
+  - first:
+      213: -5073889386487548023
+    second: bera-burucu-blackhole-x_18
+  - first:
+      213: 1113426142257801403
+    second: bera-burucu-blackhole-x_19
+  - first:
+      213: -33014209692652751
+    second: bera-burucu-blackhole-x_20
+  - first:
+      213: 7644710061785264765
+    second: bera-burucu-blackhole-x_21
+  - first:
+      213: 751280816161999842
+    second: bera-burucu-blackhole-x_22
+  - first:
+      213: 6599229878380907618
+    second: bera-burucu-blackhole-x_23
+  - first:
+      213: -5304616654791457162
+    second: bera-burucu-blackhole-x_24
+  - first:
+      213: -2469150103942947873
+    second: bera-burucu-blackhole-x_25
+  - first:
+      213: 6529221612258344516
+    second: bera-burucu-blackhole-x_26
+  - first:
+      213: -2728375833636507941
+    second: bera-burucu-blackhole-x_27
+  - first:
+      213: 4238708840675556381
+    second: bera-burucu-blackhole-x_28
+  - first:
+      213: -185825236327763962
+    second: bera-burucu-blackhole-x_29
+  - first:
+      213: 8669432419945256294
+    second: bera-burucu-blackhole-x_30
+  - first:
+      213: -6615802161937090030
+    second: bera-burucu-blackhole-x_31
+  - first:
+      213: -219704115807393861
+    second: bera-burucu-blackhole-x_32
+  - first:
+      213: 8369590380780803441
+    second: bera-burucu-blackhole-x_33
+  - first:
+      213: 8339641009761380043
+    second: bera-burucu-blackhole-x_34
+  - first:
+      213: -32374377051693364
+    second: bera-burucu-blackhole-x_35
+  - first:
+      213: 3061859749654809451
+    second: bera-burucu-blackhole-x_36
+  - first:
+      213: -4310708610969881258
+    second: bera-burucu-blackhole-x_37
+  - first:
+      213: 8839201451682218712
+    second: bera-burucu-blackhole-x_38
+  - first:
+      213: -5857639151575304326
+    second: bera-burucu-blackhole-x_39
+  - first:
+      213: -4993554721435064841
+    second: bera-burucu-blackhole-x_40
+  - first:
+      213: 2618905108057254947
+    second: bera-burucu-blackhole-x_41
+  - first:
+      213: -895705347774374180
+    second: bera-burucu-blackhole-x_42
+  - first:
+      213: 6446243156016003491
+    second: bera-burucu-blackhole-x_43
+  - first:
+      213: -8054405710335813531
+    second: bera-burucu-blackhole-x_44
+  - first:
+      213: 2011878922087388196
+    second: bera-burucu-blackhole-x_45
+  - first:
+      213: 6340594719887207905
+    second: bera-burucu-blackhole-x_46
+  - first:
+      213: 2667214213642297026
+    second: bera-burucu-blackhole-x_47
+  - first:
+      213: -2374569915948761301
+    second: bera-burucu-blackhole-x_48
+  - first:
+      213: -941821141798799722
+    second: bera-burucu-blackhole-x_49
+  - first:
+      213: -86943868882340667
+    second: bera-burucu-blackhole-x_50
+  - first:
+      213: 7521586635615171479
+    second: bera-burucu-blackhole-x_51
+  - first:
+      213: -3233765212615391671
+    second: bera-burucu-blackhole-x_52
+  - first:
+      213: 2196191164257308630
+    second: bera-burucu-blackhole-x_53
+  - first:
+      213: 3300506512124121107
+    second: bera-burucu-blackhole-x_54
+  - first:
+      213: -4185023427084985197
+    second: bera-burucu-blackhole-x_55
+  - first:
+      213: 3744954812050772226
+    second: bera-burucu-blackhole-x_56
+  - first:
+      213: 6296111436051784145
+    second: bera-burucu-blackhole-x_57
+  - first:
+      213: -7491984059195418922
+    second: bera-burucu-blackhole-x_58
+  - first:
+      213: -6906819798344675214
+    second: bera-burucu-blackhole-x_59
+  - first:
+      213: -4701530879200207666
+    second: bera-burucu-blackhole-x_60
+  - first:
+      213: -3916351058512138822
+    second: bera-burucu-blackhole-x_61
+  - first:
+      213: -3537085693310843670
+    second: bera-burucu-blackhole-x_62
+  - first:
+      213: 2167569801405442578
+    second: bera-burucu-blackhole-x_63
+  - first:
+      213: 6338096967347854965
+    second: bera-burucu-blackhole-x_64
+  - first:
+      213: 300531354274329494
+    second: bera-burucu-blackhole-x_65
+  - first:
+      213: 7374606923230616933
+    second: bera-burucu-blackhole-x_66
+  - first:
+      213: -4496581431848562702
+    second: bera-burucu-blackhole-x_67
+  - first:
+      213: 8272528193674386839
+    second: bera-burucu-blackhole-x_68
+  - first:
+      213: 5055966685252011962
+    second: bera-burucu-blackhole-x_69
+  - first:
+      213: 2174428859232561881
+    second: bera-burucu-blackhole-x_70
+  - first:
+      213: -7805487285731459780
+    second: bera-burucu-blackhole-x_71
+  - first:
+      213: 3968755758092618931
+    second: bera-burucu-blackhole-x_72
+  - first:
+      213: -2323530875870172374
+    second: bera-burucu-blackhole-x_73
+  - first:
+      213: -7169008635651273094
+    second: bera-burucu-blackhole-x_74
+  - first:
+      213: 9162368232338692662
+    second: bera-burucu-blackhole-x_75
+  - first:
+      213: 5705806645694988571
+    second: bera-burucu-blackhole-x_76
+  - first:
+      213: -6657108383051536517
+    second: bera-burucu-blackhole-x_77
+  - first:
+      213: 3331754781245989238
+    second: bera-burucu-blackhole-x_78
+  - first:
+      213: -8531406258498155736
+    second: bera-burucu-blackhole-x_79
+  - first:
+      213: -1307242338783526988
+    second: bera-burucu-blackhole-x_80
+  - first:
+      213: 5404765171428535963
+    second: bera-burucu-blackhole-x_81
+  - first:
+      213: -4046956676483678109
+    second: bera-burucu-blackhole-x_82
+  - first:
+      213: -2275776678337200020
+    second: bera-burucu-blackhole-x_83
+  - first:
+      213: 7156092628915667744
+    second: bera-burucu-blackhole-x_84
+  - first:
+      213: 8510639966880094468
+    second: bera-burucu-blackhole-x_85
+  - first:
+      213: 6904906604380455039
+    second: bera-burucu-blackhole-x_86
+  - first:
+      213: -6746334560215841425
+    second: bera-burucu-blackhole-x_87
+  - first:
+      213: -7236170942636906228
+    second: bera-burucu-blackhole-x_88
+  - first:
+      213: 8839077186915192374
+    second: bera-burucu-blackhole-x_89
+  - first:
+      213: 1454211456229526904
+    second: bera-burucu-blackhole-x_90
+  - first:
+      213: -4468744999563440890
+    second: bera-burucu-blackhole-x_91
+  - first:
+      213: 8598433852202913776
+    second: bera-burucu-blackhole-x_92
+  - first:
+      213: 9158190762498027787
+    second: bera-burucu-blackhole-x_93
+  - first:
+      213: -6041268762828970668
+    second: bera-burucu-blackhole-x_94
+  - first:
+      213: -6734576063195256316
+    second: bera-burucu-blackhole-x_95
+  - first:
+      213: -3522246435356140946
+    second: bera-burucu-blackhole-x_96
+  - first:
+      213: 3461572898382762734
+    second: bera-burucu-blackhole-x_97
+  - first:
+      213: 1438700204715671754
+    second: bera-burucu-blackhole-x_98
+  - first:
+      213: -695433881448572058
+    second: bera-burucu-blackhole-x_99
+  - first:
+      213: -8216496355927765133
+    second: bera-burucu-blackhole-x_100
+  - first:
+      213: -2139653604210815546
+    second: bera-burucu-blackhole-x_101
+  - first:
+      213: -8384040248134957534
+    second: bera-burucu-blackhole-x_102
+  - first:
+      213: 2780064290965267727
+    second: bera-burucu-blackhole-x_103
+  - first:
+      213: -5433333788191848968
+    second: bera-burucu-blackhole-x_104
+  - first:
+      213: 5279685677488427321
+    second: bera-burucu-blackhole-x_105
+  - first:
+      213: -8354600608411194233
+    second: bera-burucu-blackhole-x_106
+  - first:
+      213: 3604631150884129703
+    second: bera-burucu-blackhole-x_107
+  - first:
+      213: 6799954883087443835
+    second: bera-burucu-blackhole-x_108
+  - first:
+      213: 2870426742969887980
+    second: bera-burucu-blackhole-x_109
+  - first:
+      213: 8769110600561650097
+    second: bera-burucu-blackhole-x_110
+  - first:
+      213: 1713166436204641130
+    second: bera-burucu-blackhole-x_111
+  - first:
+      213: 8342553460262483950
+    second: bera-burucu-blackhole-x_112
+  - first:
+      213: -1019651113071520428
+    second: bera-burucu-blackhole-x_113
+  - first:
+      213: -3852740211387258248
+    second: bera-burucu-blackhole-x_114
+  - first:
+      213: -3212367747337435249
+    second: bera-burucu-blackhole-x_115
+  - first:
+      213: -1738315272203845625
+    second: bera-burucu-blackhole-x_116
+  - first:
+      213: 6212350090230983061
+    second: bera-burucu-blackhole-x_117
+  - first:
+      213: 4480124786472280818
+    second: bera-burucu-blackhole-x_118
+  - first:
+      213: 3306193218728809007
+    second: bera-burucu-blackhole-x_119
+  - first:
+      213: 7546880529714333149
+    second: bera-burucu-blackhole-x_120
+  - first:
+      213: -7537481012302426839
+    second: bera-burucu-blackhole-x_121
+  - first:
+      213: -8713973930074896570
+    second: bera-burucu-blackhole-x_122
+  - first:
+      213: -4661271351063162912
+    second: bera-burucu-blackhole-x_123
+  - first:
+      213: -8997593076758483564
+    second: bera-burucu-blackhole-x_124
+  - first:
+      213: 3771392859383907868
+    second: bera-burucu-blackhole-x_125
+  - first:
+      213: 4037617305816519638
+    second: bera-burucu-blackhole-x_126
+  - first:
+      213: 2379433462342624239
+    second: bera-burucu-blackhole-x_127
+  - first:
+      213: -6710338867473672302
+    second: bera-burucu-blackhole-x_128
+  - first:
+      213: 394424726919420626
+    second: bera-burucu-blackhole-x_129
+  - first:
+      213: 6661062263465472046
+    second: bera-burucu-blackhole-x_130
+  - first:
+      213: -5918814202771257270
+    second: bera-burucu-blackhole-x_131
+  - first:
+      213: -6553155641108882921
+    second: bera-burucu-blackhole-x_132
+  - first:
+      213: 3130267586556904747
+    second: bera-burucu-blackhole-x_133
+  - first:
+      213: 1824473213777024444
+    second: bera-burucu-blackhole-x_134
+  - first:
+      213: -423431200601751708
+    second: bera-burucu-blackhole-x_135
+  - first:
+      213: -3847119693139122084
+    second: bera-burucu-blackhole-x_136
+  - first:
+      213: 4563777071341302998
+    second: bera-burucu-blackhole-x_137
+  - first:
+      213: 392943182375581604
+    second: bera-burucu-blackhole-x_138
+  - first:
+      213: 1896718262644672419
+    second: bera-burucu-blackhole-x_139
+  - first:
+      213: -1875290225618982334
+    second: bera-burucu-blackhole-x_140
+  - first:
+      213: 2304830018453694168
+    second: bera-burucu-blackhole-x_141
+  - first:
+      213: 9125468909694529984
+    second: bera-burucu-blackhole-x_142
+  - first:
+      213: 7530888273720781693
+    second: bera-burucu-blackhole-x_143
+  - first:
+      213: -1356282697048400190
+    second: bera-burucu-blackhole-x_144
+  - first:
+      213: 7936867835957583013
+    second: bera-burucu-blackhole-x_145
+  - first:
+      213: -2511784139448428871
+    second: bera-burucu-blackhole-x_146
+  - first:
+      213: 1530224507343695066
+    second: bera-burucu-blackhole-x_147
+  - first:
+      213: -7929364821293458262
+    second: bera-burucu-blackhole-x_148
+  - first:
+      213: -2492041450594473847
+    second: bera-burucu-blackhole-x_149
+  - first:
+      213: 1622713773666572711
+    second: bera-burucu-blackhole-x_150
+  - first:
+      213: -692274916342043616
+    second: bera-burucu-blackhole-x_151
+  - first:
+      213: 8114802761150906861
+    second: bera-burucu-blackhole-x_152
+  - first:
+      213: 3786597069688500230
+    second: bera-burucu-blackhole-x_153
+  - first:
+      213: 4894030961078667205
+    second: bera-burucu-blackhole-x_154
+  - first:
+      213: 1725901112672193710
+    second: bera-burucu-blackhole-x_155
+  - first:
+      213: 7914552138166556554
+    second: bera-burucu-blackhole-x_156
+  - first:
+      213: -1441682755534411998
+    second: bera-burucu-blackhole-x_157
+  - first:
+      213: -2155830354545969136
+    second: bera-burucu-blackhole-x_158
+  - first:
+      213: -2949806483052880778
+    second: bera-burucu-blackhole-x_159
+  - first:
+      213: 2564173210897204834
+    second: bera-burucu-blackhole-x_160
+  - first:
+      213: -7615929237129862766
+    second: bera-burucu-blackhole-x_161
+  - first:
+      213: -1123207486352200106
+    second: bera-burucu-blackhole-x_162
+  - first:
+      213: 5358953499390346670
+    second: bera-burucu-blackhole-x_163
+  - first:
+      213: -6218564981452095017
+    second: bera-burucu-blackhole-x_164
+  - first:
+      213: -8906119160435018463
+    second: bera-burucu-blackhole-x_165
+  - first:
+      213: -2328439965566522878
+    second: bera-burucu-blackhole-x_166
+  - first:
+      213: 879557871283913278
+    second: bera-burucu-blackhole-x_167
+  - first:
+      213: 6723250652103376627
+    second: bera-burucu-blackhole-x_168
+  - first:
+      213: -5713936329831895067
+    second: bera-burucu-blackhole-x_169
+  - first:
+      213: 4221425435204368952
+    second: bera-burucu-blackhole-x_170
+  - first:
+      213: 1488229488430561943
+    second: bera-burucu-blackhole-x_171
+  - first:
+      213: 2268190445609144705
+    second: bera-burucu-blackhole-x_172
+  - first:
+      213: 5023063659283957760
+    second: bera-burucu-blackhole-x_173
+  - first:
+      213: -6368479415353747424
+    second: bera-burucu-blackhole-x_174
+  - first:
+      213: -257355389073881147
+    second: bera-burucu-blackhole-x_175
+  - first:
+      213: 3384783831718029072
+    second: bera-burucu-blackhole-x_176
+  - first:
+      213: -1088476096269244394
+    second: bera-burucu-blackhole-x_177
+  - first:
+      213: 6700669988341133369
+    second: bera-burucu-blackhole-x_178
+  - first:
+      213: -5901928585544944305
+    second: bera-burucu-blackhole-x_179
+  - first:
+      213: -8151730101851649104
+    second: bera-burucu-blackhole-x_180
+  - first:
+      213: -7652339930779496764
+    second: bera-burucu-blackhole-x_181
+  - first:
+      213: 7082926950291441833
+    second: bera-burucu-blackhole-x_182
+  - first:
+      213: -8442827550078090038
+    second: bera-burucu-blackhole-x_183
+  - first:
+      213: 243282292943500694
+    second: bera-burucu-blackhole-x_184
+  - first:
+      213: -4292552924363687745
+    second: bera-burucu-blackhole-x_185
+  - first:
+      213: -2826210607655652875
+    second: bera-burucu-blackhole-x_186
+  - first:
+      213: -3693170137006995729
+    second: bera-burucu-blackhole-x_187
+  - first:
+      213: -5732898646580300032
+    second: bera-burucu-blackhole-x_188
+  - first:
+      213: 4765604812743466490
+    second: bera-burucu-blackhole-x_189
+  - first:
+      213: -1607215803419075440
+    second: bera-burucu-blackhole-x_190
+  - first:
+      213: -5399590561532308477
+    second: bera-burucu-blackhole-x_191
+  - first:
+      213: -5547824487229034944
+    second: bera-burucu-blackhole-x_192
+  - first:
+      213: -2576170909001795614
+    second: bera-burucu-blackhole-x_193
+  - first:
+      213: -8857682871657859747
+    second: bera-burucu-blackhole-x_194
+  - first:
+      213: 7515259059760818146
+    second: bera-burucu-blackhole-x_195
+  - first:
+      213: 5578557386231558725
+    second: bera-burucu-blackhole-x_196
+  - first:
+      213: -1431965230433970275
+    second: bera-burucu-blackhole-x_197
+  - first:
+      213: 848886309468405589
+    second: bera-burucu-blackhole-x_198
+  - first:
+      213: 3362505534623659057
+    second: bera-burucu-blackhole-x_199
+  - first:
+      213: -5275889742384485620
+    second: bera-burucu-blackhole-x_200
+  - first:
+      213: -4225571793109987856
+    second: bera-burucu-blackhole-x_201
+  - first:
+      213: -3996626034808158118
+    second: bera-burucu-blackhole-x_202
+  - first:
+      213: -1808956283822057662
+    second: bera-burucu-blackhole-x_203
+  - first:
+      213: -981788400450150372
+    second: bera-burucu-blackhole-x_204
+  - first:
+      213: 4335098316867791140
+    second: bera-burucu-blackhole-x_205
+  - first:
+      213: -9169957488548252593
+    second: bera-burucu-blackhole-x_206
+  - first:
+      213: 4176373482564318788
+    second: bera-burucu-blackhole-x_207
+  - first:
+      213: 4317193782416832659
+    second: bera-burucu-blackhole-x_208
+  - first:
+      213: 5931361070191103032
+    second: bera-burucu-blackhole-x_209
+  - first:
+      213: 1201874962985134239
+    second: bera-burucu-blackhole-x_210
+  - first:
+      213: 9172280527323575383
+    second: bera-burucu-blackhole-x_211
+  - first:
+      213: 6968557375353226221
+    second: bera-burucu-blackhole-x_212
+  - first:
+      213: 6394821050921366123
+    second: bera-burucu-blackhole-x_213
+  - first:
+      213: 7496672482012198741
+    second: bera-burucu-blackhole-x_214
+  - first:
+      213: 5800400738010489478
+    second: bera-burucu-blackhole-x_215
+  - first:
+      213: 1987565903552275191
+    second: bera-burucu-blackhole-x_216
+  - first:
+      213: -5488495230408379031
+    second: bera-burucu-blackhole-x_217
+  - first:
+      213: 4766836935498723203
+    second: bera-burucu-blackhole-x_218
+  - first:
+      213: -6543002645047644164
+    second: bera-burucu-blackhole-x_219
+  - first:
+      213: 6688136823368496383
+    second: bera-burucu-blackhole-x_220
+  - first:
+      213: -5767087821333674932
+    second: bera-burucu-blackhole-x_221
+  - first:
+      213: 2383404036345754927
+    second: bera-burucu-blackhole-x_222
+  - first:
+      213: 7368976122329889698
+    second: bera-burucu-blackhole-x_223
+  - first:
+      213: 7496799947853954704
+    second: bera-burucu-blackhole-x_224
+  - first:
+      213: -3085113481584439433
+    second: bera-burucu-blackhole-x_225
+  - first:
+      213: 7503073655357633441
+    second: bera-burucu-blackhole-x_226
+  - first:
+      213: -8041173645631067979
+    second: bera-burucu-blackhole-x_227
+  - first:
+      213: -2435436834199348276
+    second: bera-burucu-blackhole-x_228
+  - first:
+      213: 3486166141290591455
+    second: bera-burucu-blackhole-x_229
+  - first:
+      213: 8406506630459159226
+    second: bera-burucu-blackhole-x_230
+  - first:
+      213: -6924520090205597531
+    second: bera-burucu-blackhole-x_231
+  - first:
+      213: 5406131758163133434
+    second: bera-burucu-blackhole-x_232
+  - first:
+      213: -6960639289403978531
+    second: bera-burucu-blackhole-x_233
+  - first:
+      213: 1514774753646312314
+    second: bera-burucu-blackhole-x_234
+  - first:
+      213: 14752913048527544
+    second: bera-burucu-blackhole-x_235
+  - first:
+      213: -8229528863850893925
+    second: bera-burucu-blackhole-x_236
+  - first:
+      213: -998707202285528464
+    second: bera-burucu-blackhole-x_237
+  - first:
+      213: 7816092731940354137
+    second: bera-burucu-blackhole-x_238
+  - first:
+      213: 8724112410327627504
+    second: bera-burucu-blackhole-x_239
+  - first:
+      213: 8839609888307016485
+    second: bera-burucu-blackhole-x_240
+  - first:
+      213: -7809220860538508711
+    second: bera-burucu-blackhole-x_241
+  - first:
+      213: -7131922003460569090
+    second: bera-burucu-blackhole-x_242
+  - first:
+      213: 7953478719453539663
+    second: bera-burucu-blackhole-x_243
+  - first:
+      213: 6054621406773248331
+    second: bera-burucu-blackhole-x_244
+  - first:
+      213: -1954223970335688875
+    second: bera-burucu-blackhole-x_245
+  - first:
+      213: -7094569535707357879
+    second: bera-burucu-blackhole-x_246
+  - first:
+      213: 8414278203729518700
+    second: bera-burucu-blackhole-x_247
+  - first:
+      213: -4019078989729375617
+    second: bera-burucu-blackhole-x_248
+  - first:
+      213: -7110953110783496337
+    second: bera-burucu-blackhole-x_249
+  - first:
+      213: -4689370434526925060
+    second: bera-burucu-blackhole-x_250
+  - first:
+      213: -5294863129953291049
+    second: bera-burucu-blackhole-x_251
+  - first:
+      213: -6981834054815993239
+    second: bera-burucu-blackhole-x_252
+  - first:
+      213: -7421970200835690142
+    second: bera-burucu-blackhole-x_253
+  - first:
+      213: -74079187028382582
+    second: bera-burucu-blackhole-x_254
+  - first:
+      213: 8098649364518863947
+    second: bera-burucu-blackhole-x_255
+  - first:
+      213: -8732239785083330508
+    second: bera-burucu-blackhole-x_256
+  - first:
+      213: 8201868997278900156
+    second: bera-burucu-blackhole-x_257
+  - first:
+      213: -203147229826611916
+    second: bera-burucu-blackhole-x_258
+  - first:
+      213: 1226298194816276571
+    second: bera-burucu-blackhole-x_259
+  - first:
+      213: 1638087736502949507
+    second: bera-burucu-blackhole-x_260
+  - first:
+      213: 166509104191441234
+    second: bera-burucu-blackhole-x_261
+  - first:
+      213: -4573047672971902342
+    second: bera-burucu-blackhole-x_262
+  - first:
+      213: -5480614078280892167
+    second: bera-burucu-blackhole-x_263
+  - first:
+      213: -75182322002206529
+    second: bera-burucu-blackhole-x_264
+  - first:
+      213: -6214635215457483152
+    second: bera-burucu-blackhole-x_265
+  - first:
+      213: -9181625710291573533
+    second: bera-burucu-blackhole-x_266
+  - first:
+      213: -2177036283576353147
+    second: bera-burucu-blackhole-x_267
+  - first:
+      213: -783545223203609709
+    second: bera-burucu-blackhole-x_268
+  - first:
+      213: 3283468446001785116
+    second: bera-burucu-blackhole-x_269
+  - first:
+      213: 9120924871958562353
+    second: bera-burucu-blackhole-x_270
+  - first:
+      213: -1602899042778974699
+    second: bera-burucu-blackhole-x_271
+  - first:
+      213: 1188453134850373599
+    second: bera-burucu-blackhole-x_272
+  - first:
+      213: 968214946822750467
+    second: bera-burucu-blackhole-x_273
+  - first:
+      213: 2653854392425506730
+    second: bera-burucu-blackhole-x_274
+  - first:
+      213: -4630349364574556529
+    second: bera-burucu-blackhole-x_275
+  - first:
+      213: 4925220661460646898
+    second: bera-burucu-blackhole-x_276
+  - first:
+      213: 8155563081427486550
+    second: bera-burucu-blackhole-x_277
+  - first:
+      213: 5274632156203226320
+    second: bera-burucu-blackhole-x_278
+  - first:
+      213: 1821969411999378384
+    second: bera-burucu-blackhole-x_279
+  - first:
+      213: -536448291962838846
+    second: bera-burucu-blackhole-x_280
+  - first:
+      213: -7166520006263984283
+    second: bera-burucu-blackhole-x_281
+  - first:
+      213: -5087907894057846785
+    second: bera-burucu-blackhole-x_282
+  - first:
+      213: -7238439736150541063
+    second: bera-burucu-blackhole-x_283
+  - first:
+      213: 823896414556811692
+    second: bera-burucu-blackhole-x_284
+  - first:
+      213: 5359838656100697123
+    second: bera-burucu-blackhole-x_285
+  - first:
+      213: -7299124340795808861
+    second: bera-burucu-blackhole-x_286
+  - first:
+      213: -1293069740254845194
+    second: bera-burucu-blackhole-x_287
+  - first:
+      213: 3121433973939078220
+    second: bera-burucu-blackhole-x_288
+  - first:
+      213: 1128161269951023595
+    second: bera-burucu-blackhole-x_289
+  - first:
+      213: -2068630218215652718
+    second: bera-burucu-blackhole-x_290
+  - first:
+      213: -6478008755277183116
+    second: bera-burucu-blackhole-x_291
+  - first:
+      213: -6257010788975100443
+    second: bera-burucu-blackhole-x_292
+  - first:
+      213: -2997353271047155071
+    second: bera-burucu-blackhole-x_293
+  - first:
+      213: 7454962478292335567
+    second: bera-burucu-blackhole-x_294
+  - first:
+      213: -1526146245507576563
+    second: bera-burucu-blackhole-x_295
+  - first:
+      213: 3130570108104655769
+    second: bera-burucu-blackhole-x_296
+  - first:
+      213: -1369620465454440895
+    second: bera-burucu-blackhole-x_297
+  - first:
+      213: 3500173276169578565
+    second: bera-burucu-blackhole-x_298
+  - first:
+      213: 4028959926766169644
+    second: bera-burucu-blackhole-x_299
+  - first:
+      213: 3846692665429609727
+    second: bera-burucu-blackhole-x_300
+  - first:
+      213: -320482571699655982
+    second: bera-burucu-blackhole-x_301
+  - first:
+      213: 7033671875721580688
+    second: bera-burucu-blackhole-x_302
+  - first:
+      213: -5104544039520759577
+    second: bera-burucu-blackhole-x_303
+  - first:
+      213: 8472425853899290037
+    second: bera-burucu-blackhole-x_304
+  - first:
+      213: 7598849990302022904
+    second: bera-burucu-blackhole-x_305
+  - first:
+      213: 7796371691858587757
+    second: bera-burucu-blackhole-x_306
+  - first:
+      213: -1223687122175090564
+    second: bera-burucu-blackhole-x_307
+  - first:
+      213: -7917796941829847578
+    second: bera-burucu-blackhole-x_308
+  - first:
+      213: 793325964895095495
+    second: bera-burucu-blackhole-x_309
+  - first:
+      213: 1724799818227858133
+    second: bera-burucu-blackhole-x_310
+  - first:
+      213: -514777335591754118
+    second: bera-burucu-blackhole-x_311
+  - first:
+      213: 3392821867458432764
+    second: bera-burucu-blackhole-x_312
+  - first:
+      213: -8251168690205172595
+    second: bera-burucu-blackhole-x_313
+  - first:
+      213: 8557324735068126762
+    second: bera-burucu-blackhole-x_314
+  - first:
+      213: -3769229120635597420
+    second: bera-burucu-blackhole-x_315
+  - first:
+      213: 2976204610703121421
+    second: bera-burucu-blackhole-x_316
+  - first:
+      213: -8683124160296840297
+    second: bera-burucu-blackhole-x_317
+  - first:
+      213: -163089464645440572
+    second: bera-burucu-blackhole-x_318
+  - first:
+      213: 215411690615462124
+    second: bera-burucu-blackhole-x_319
+  - first:
+      213: 7296058621955192210
+    second: bera-burucu-blackhole-x_320
+  - first:
+      213: -3019017150219920034
+    second: bera-burucu-blackhole-x_321
+  - first:
+      213: 360410168676725975
+    second: bera-burucu-blackhole-x_322
+  - first:
+      213: 4414700143787358479
+    second: bera-burucu-blackhole-x_323
+  - first:
+      213: -8122119560299310475
+    second: bera-burucu-blackhole-x_324
+  - first:
+      213: -8702830499729955178
+    second: bera-burucu-blackhole-x_325
+  - first:
+      213: 8313901693959119591
+    second: bera-burucu-blackhole-x_326
+  - first:
+      213: 2337802311425469565
+    second: bera-burucu-blackhole-x_327
+  - first:
+      213: -6735465234331867987
+    second: bera-burucu-blackhole-x_328
+  - first:
+      213: -9009945994932416395
+    second: bera-burucu-blackhole-x_329
+  - first:
+      213: 3949482777598157498
+    second: bera-burucu-blackhole-x_330
+  - first:
+      213: 7613760337147321249
+    second: bera-burucu-blackhole-x_331
+  - first:
+      213: 9110734702312028544
+    second: bera-burucu-blackhole-x_332
+  - first:
+      213: 8004747468545362935
+    second: bera-burucu-blackhole-x_333
+  - first:
+      213: -3389969547300391166
+    second: bera-burucu-blackhole-x_334
+  - first:
+      213: 1000994004281940862
+    second: bera-burucu-blackhole-x_335
+  - first:
+      213: -8618541077578132850
+    second: bera-burucu-blackhole-x_336
+  - first:
+      213: -1853704018763314944
+    second: bera-burucu-blackhole-x_337
+  - first:
+      213: -8988559669470452526
+    second: bera-burucu-blackhole-x_338
+  - first:
+      213: 1732677993274746793
+    second: bera-burucu-blackhole-x_339
+  - first:
+      213: -6386087599936715311
+    second: bera-burucu-blackhole-x_340
+  - first:
+      213: -8044155929891523370
+    second: bera-burucu-blackhole-x_341
+  - first:
+      213: -7124286746058737673
+    second: bera-burucu-blackhole-x_342
+  - first:
+      213: 6331300247104161476
+    second: bera-burucu-blackhole-x_343
+  - first:
+      213: 1800999733938372964
+    second: bera-burucu-blackhole-x_344
+  - first:
+      213: -7514288106010276543
+    second: bera-burucu-blackhole-x_345
+  - first:
+      213: 6156310642186743654
+    second: bera-burucu-blackhole-x_346
+  - first:
+      213: 8913493653691285582
+    second: bera-burucu-blackhole-x_347
+  - first:
+      213: 4185842096975046039
+    second: bera-burucu-blackhole-x_348
+  - first:
+      213: 5222761723894796054
+    second: bera-burucu-blackhole-x_349
+  - first:
+      213: 7731911381116084687
+    second: bera-burucu-blackhole-x_350
+  - first:
+      213: 4372889572459551179
+    second: bera-burucu-blackhole-x_351
+  - first:
+      213: 3314178945612085361
+    second: bera-burucu-blackhole-x_352
+  - first:
+      213: -6122723048725033760
+    second: bera-burucu-blackhole-x_353
+  - first:
+      213: 3877252680649569735
+    second: bera-burucu-blackhole-x_354
+  - first:
+      213: -7609824341530697239
+    second: bera-burucu-blackhole-x_355
+  - first:
+      213: -7549161313368084706
+    second: bera-burucu-blackhole-x_356
+  - first:
+      213: -3120177372817751625
+    second: bera-burucu-blackhole-x_357
+  - first:
+      213: -9086479628446706337
+    second: bera-burucu-blackhole-x_358
+  - first:
+      213: 6624793376624873584
+    second: bera-burucu-blackhole-x_359
+  - first:
+      213: -7113706125630030454
+    second: bera-burucu-blackhole-x_360
+  - first:
+      213: -5484141373401714546
+    second: bera-burucu-blackhole-x_361
+  - first:
+      213: 1044110085096319425
+    second: bera-burucu-blackhole-x_362
+  - first:
+      213: -7686381781262954566
+    second: bera-burucu-blackhole-x_363
+  - first:
+      213: 1292801572552693809
+    second: bera-burucu-blackhole-x_364
+  - first:
+      213: -7373484758613578614
+    second: bera-burucu-blackhole-x_365
+  - first:
+      213: -799502705218106356
+    second: bera-burucu-blackhole-x_366
+  - first:
+      213: 7011517203778619790
+    second: bera-burucu-blackhole-x_367
+  - first:
+      213: -6455963642489745258
+    second: bera-burucu-blackhole-x_368
+  - first:
+      213: 7944100065161842688
+    second: bera-burucu-blackhole-x_369
+  - first:
+      213: -6783987640238140273
+    second: bera-burucu-blackhole-x_370
+  - first:
+      213: -8951542521149962365
+    second: bera-burucu-blackhole-x_371
+  - first:
+      213: -5457881460075972105
+    second: bera-burucu-blackhole-x_372
+  - first:
+      213: 5295365784437008336
+    second: bera-burucu-blackhole-x_373
+  - first:
+      213: -7900520979242590726
+    second: bera-burucu-blackhole-x_374
+  - first:
+      213: 2736711379443803509
+    second: bera-burucu-blackhole-x_375
+  - first:
+      213: -4800250728365589536
+    second: bera-burucu-blackhole-x_376
+  - first:
+      213: -3779050512261342022
+    second: bera-burucu-blackhole-x_377
+  - first:
+      213: -6967617252422295417
+    second: bera-burucu-blackhole-x_378
+  - first:
+      213: 677486546445644190
+    second: bera-burucu-blackhole-x_379
+  - first:
+      213: -4247052376400658659
+    second: bera-burucu-blackhole-x_380
+  - first:
+      213: -223074233568019847
+    second: bera-burucu-blackhole-x_381
+  - first:
+      213: 4912170605699814038
+    second: bera-burucu-blackhole-x_382
+  - first:
+      213: 4414997900080880536
+    second: bera-burucu-blackhole-x_383
+  - first:
+      213: -8631332794887056827
+    second: bera-burucu-blackhole-x_384
+  - first:
+      213: 8088730564491619728
+    second: bera-burucu-blackhole-x_385
+  - first:
+      213: 5636989987983372315
+    second: bera-burucu-blackhole-x_386
+  - first:
+      213: 1314186284181477330
+    second: bera-burucu-blackhole-x_387
+  - first:
+      213: -3481919731403212359
+    second: bera-burucu-blackhole-x_388
+  - first:
+      213: -741425494506273526
+    second: bera-burucu-blackhole-x_389
+  - first:
+      213: -7209445379544396279
+    second: bera-burucu-blackhole-x_390
+  - first:
+      213: 8586042480523298397
+    second: bera-burucu-blackhole-x_391
+  - first:
+      213: 7141736622508322333
+    second: bera-burucu-blackhole-x_392
+  - first:
+      213: -8786807249326401212
+    second: bera-burucu-blackhole-x_393
+  - first:
+      213: -3085719358384664364
+    second: bera-burucu-blackhole-x_394
+  - first:
+      213: -6627716163847145889
+    second: bera-burucu-blackhole-x_395
+  - first:
+      213: -6688803350631877139
+    second: bera-burucu-blackhole-x_396
+  - first:
+      213: -7599966050418006379
+    second: bera-burucu-blackhole-x_397
+  - first:
+      213: 1882476624664409541
+    second: bera-burucu-blackhole-x_398
+  - first:
+      213: -629238606570231079
+    second: bera-burucu-blackhole-x_399
+  - first:
+      213: 7397741459966156173
+    second: bera-burucu-blackhole-x_400
+  - first:
+      213: 6769134532534905948
+    second: bera-burucu-blackhole-x_401
+  - first:
+      213: 3220529071227853293
+    second: bera-burucu-blackhole-x_402
+  - first:
+      213: 3719584453670968089
+    second: bera-burucu-blackhole-x_403
+  - first:
+      213: -3988863884487928662
+    second: bera-burucu-blackhole-x_404
+  - first:
+      213: -7008777844185652205
+    second: bera-burucu-blackhole-x_405
+  - first:
+      213: -8562651381524328079
+    second: bera-burucu-blackhole-x_406
+  - first:
+      213: -8910025170752132107
+    second: bera-burucu-blackhole-x_407
+  - first:
+      213: -4576911064882644426
+    second: bera-burucu-blackhole-x_408
+  - first:
+      213: -1158642252621069630
+    second: bera-burucu-blackhole-x_409
+  - first:
+      213: 39081422504905836
+    second: bera-burucu-blackhole-x_410
+  - first:
+      213: 6213188329963196594
+    second: bera-burucu-blackhole-x_411
+  - first:
+      213: -4132338788431062296
+    second: bera-burucu-blackhole-x_412
+  - first:
+      213: 876763230625664631
+    second: bera-burucu-blackhole-x_413
+  - first:
+      213: 326050676270263616
+    second: bera-burucu-blackhole-x_414
+  - first:
+      213: -8931004869984236895
+    second: bera-burucu-blackhole-x_415
+  - first:
+      213: -1041462169013601433
+    second: bera-burucu-blackhole-x_416
+  - first:
+      213: 5054412156965487666
+    second: bera-burucu-blackhole-x_417
+  - first:
+      213: -4173384343934454408
+    second: bera-burucu-blackhole-x_418
+  - first:
+      213: -1095083435675146994
+    second: bera-burucu-blackhole-x_419
+  - first:
+      213: -958433007075999384
+    second: bera-burucu-blackhole-x_420
+  - first:
+      213: 7098824950850266677
+    second: bera-burucu-blackhole-x_421
+  - first:
+      213: -5297056945020503207
+    second: bera-burucu-blackhole-x_422
+  - first:
+      213: 4742944633305122420
+    second: bera-burucu-blackhole-x_423
+  - first:
+      213: -5240876696999717649
+    second: bera-burucu-blackhole-x_424
+  - first:
+      213: -6206517106826053676
+    second: bera-burucu-blackhole-x_425
+  - first:
+      213: 2287428823272757047
+    second: bera-burucu-blackhole-x_426
+  - first:
+      213: -2643463373894852794
+    second: bera-burucu-blackhole-x_427
+  - first:
+      213: 8098023530777346418
+    second: bera-burucu-blackhole-x_428
+  - first:
+      213: 1652043380601456595
+    second: bera-burucu-blackhole-x_429
+  - first:
+      213: -8019611880450736770
+    second: bera-burucu-blackhole-x_430
+  - first:
+      213: -5316719798816672381
+    second: bera-burucu-blackhole-x_431
+  - first:
+      213: -2006630859577034720
+    second: bera-burucu-blackhole-x_432
+  - first:
+      213: -5147904728754805057
+    second: bera-burucu-blackhole-x_433
+  - first:
+      213: 7971041398739935051
+    second: bera-burucu-blackhole-x_434
+  - first:
+      213: -4315013043751231753
+    second: bera-burucu-blackhole-x_435
+  - first:
+      213: -3625849420395108445
+    second: bera-burucu-blackhole-x_436
+  - first:
+      213: 365302780805733218
+    second: bera-burucu-blackhole-x_437
+  - first:
+      213: -4016136158508058591
+    second: bera-burucu-blackhole-x_438
+  - first:
+      213: 5119942423093116939
+    second: bera-burucu-blackhole-x_439
+  - first:
+      213: -4839021998781165708
+    second: bera-burucu-blackhole-x_440
+  - first:
+      213: 2739530903340254407
+    second: bera-burucu-blackhole-x_441
+  - first:
+      213: 2430425709974790301
+    second: bera-burucu-blackhole-x_442
+  - first:
+      213: -1943163158201248019
+    second: bera-burucu-blackhole-x_443
+  - first:
+      213: -263818090810738940
+    second: bera-burucu-blackhole-x_444
+  - first:
+      213: -8114358932860956298
+    second: bera-burucu-blackhole-x_445
+  - first:
+      213: -230712896833191089
+    second: bera-burucu-blackhole-x_446
+  - first:
+      213: 1566113754375559586
+    second: bera-burucu-blackhole-x_447
+  - first:
+      213: 1408615172567286179
+    second: bera-burucu-blackhole-x_448
+  - first:
+      213: -8691497221597655007
+    second: bera-burucu-blackhole-x_449
+  - first:
+      213: 8937189431018177423
+    second: bera-burucu-blackhole-x_450
+  - first:
+      213: -2999741498329185283
+    second: bera-burucu-blackhole-x_451
+  - first:
+      213: 2474341048436696619
+    second: bera-burucu-blackhole-x_452
+  - first:
+      213: -3406474465865362768
+    second: bera-burucu-blackhole-x_453
+  - first:
+      213: 3559245813926752572
+    second: bera-burucu-blackhole-x_454
+  - first:
+      213: -8516628643340309907
+    second: bera-burucu-blackhole-x_455
+  - first:
+      213: -6813561636347847436
+    second: bera-burucu-blackhole-x_456
+  - first:
+      213: 207903092773271549
+    second: bera-burucu-blackhole-x_457
+  - first:
+      213: -7086294470501889615
+    second: bera-burucu-blackhole-x_458
+  - first:
+      213: 4564315999470784060
+    second: bera-burucu-blackhole-x_459
+  - first:
+      213: 4656957029613197067
+    second: bera-burucu-blackhole-x_460
+  - first:
+      213: -369605304980103320
+    second: bera-burucu-blackhole-x_461
+  - first:
+      213: -3162219335915336581
+    second: bera-burucu-blackhole-x_462
+  - first:
+      213: -4387938679592351560
+    second: bera-burucu-blackhole-x_463
+  - first:
+      213: 3731604959414971032
+    second: bera-burucu-blackhole-x_464
+  - first:
+      213: 7280759429149627298
+    second: bera-burucu-blackhole-x_465
+  - first:
+      213: -1734221655348122290
+    second: bera-burucu-blackhole-x_466
+  - first:
+      213: 9210640075130923923
+    second: bera-burucu-blackhole-x_467
+  - first:
+      213: 4607177444643948076
+    second: bera-burucu-blackhole-x_468
+  - first:
+      213: -4268808546434057731
+    second: bera-burucu-blackhole-x_469
+  - first:
+      213: 3798787121115379450
+    second: bera-burucu-blackhole-x_470
+  - first:
+      213: 2647661487038220778
+    second: bera-burucu-blackhole-x_471
+  - first:
+      213: 4477291487437521702
+    second: bera-burucu-blackhole-x_472
+  - first:
+      213: 6177238922327155666
+    second: bera-burucu-blackhole-x_473
+  - first:
+      213: -426395081939578880
+    second: bera-burucu-blackhole-x_474
+  - first:
+      213: -2826410842956157701
+    second: bera-burucu-blackhole-x_475
+  - first:
+      213: 7223174755636384172
+    second: bera-burucu-blackhole-x_476
+  - first:
+      213: -817866995827648976
+    second: bera-burucu-blackhole-x_477
+  - first:
+      213: 7405464629580157480
+    second: bera-burucu-blackhole-x_478
+  - first:
+      213: 7771988313277695280
+    second: bera-burucu-blackhole-x_479
+  - first:
+      213: -947789925866226895
+    second: bera-burucu-blackhole-x_480
+  - first:
+      213: 8719665382182573725
+    second: bera-burucu-blackhole-x_481
+  - first:
+      213: -8003350662405333800
+    second: bera-burucu-blackhole-x_482
+  - first:
+      213: 6273102093492582400
+    second: bera-burucu-blackhole-x_483
+  - first:
+      213: -3755011739357071503
+    second: bera-burucu-blackhole-x_484
+  - first:
+      213: -3692118507508635952
+    second: bera-burucu-blackhole-x_485
+  - first:
+      213: -8363635161762905625
+    second: bera-burucu-blackhole-x_486
+  - first:
+      213: 4671064963364813890
+    second: bera-burucu-blackhole-x_487
+  - first:
+      213: -3652571828210775513
+    second: bera-burucu-blackhole-x_488
+  - first:
+      213: -1603721705747668745
+    second: bera-burucu-blackhole-x_489
+  - first:
+      213: 2746675179616929357
+    second: bera-burucu-blackhole-x_490
+  - first:
+      213: 6951602166396776027
+    second: bera-burucu-blackhole-x_491
+  - first:
+      213: 5991009968225957168
+    second: bera-burucu-blackhole-x_492
+  - first:
+      213: 5032436335549898190
+    second: bera-burucu-blackhole-x_493
+  - first:
+      213: -8553774754950854108
+    second: bera-burucu-blackhole-x_494
+  - first:
+      213: 5538289406123392186
+    second: bera-burucu-blackhole-x_495
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5b499769129a64d87c2b692ef4f23e
+      internalID: 1016961563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf1f0bf394429c4a86d77bb61de5a5f
+      internalID: -1368130879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8406d65aec91249af430e96f148426
+      internalID: -414704730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5b2a53b988e4e43b2ac67504b18f75
+      internalID: 744233485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3936cdcfb8d76f1408ffda6eaef5193c
+      internalID: 1994039222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2882a9a1dca46428257369276eda41
+      internalID: 1786307206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033d51c5d52cac941a60a2e83bbd9f66
+      internalID: -425715461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_7
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a25f652c5eefc4d828e68e2f66ead8
+      internalID: 583671185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_8
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6a477d8f92fc74eac95d1750d47d2e
+      internalID: 402040252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_9
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6612a1e792bc89c41b9443e949cef23f
+      internalID: 92170230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_10
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c1b93b55e48804980e33ea374b535c
+      internalID: -1115574141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_11
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c77cd13428af24eb7b738b1d287483
+      internalID: 1282286546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_12
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 9000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3604a949b4d00c45b6f73ad8ec7d3e6
+      internalID: 884039770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4488e00977420524a8c509a55622dccf
+      internalID: 103610540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934da6c5f0cad3a4aa56387adac04792
+      internalID: 1103560581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_15
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ed680b657a7be41ba9e1084865ee2d
+      internalID: -948475483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9337e273a679cae4bbd3fbf88bae752d
+      internalID: 730841120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_17
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3669faae6d06d26498e84e2e5c7203fc
+      internalID: 1560603329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b260e597785b94e488c6102af46fd71a
+      internalID: 1840933839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b0624e11a70d48a0cea5db9f2780f
+      internalID: -1283710838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_20
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0f99c1ee6acf347b4fdfeb50900812
+      internalID: 658325174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_21
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d00c822845f734eafaca3abf07dc49
+      internalID: -84687020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_22
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc80a08f34f23441bfbc6ce4cc81701
+      internalID: 473096023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_23
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde6857b5719ceb418b272e79b77caa2
+      internalID: 1440877312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_24
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e2625a75f39cf44b4e2a9b3194e1ba
+      internalID: -422021791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_25
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 8000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a182a6b0a068a4fb9b21517fb8c9c2
+      internalID: -74329863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c658e7784f8674d9e96c379ce46eea
+      internalID: -152298305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2088cddb3a9278e45aa9bbc86ff53e03
+      internalID: 59638454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e7b465e1afbe849bf56f765f122d53
+      internalID: 2055444225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_29
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdca2e7502ce6c944b90d0e9a03be7d9
+      internalID: -563639550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_30
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3f3b5e72e15344cb6c89f0366790ab
+      internalID: 752475378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_31
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742355626e8bf464c87c12c893756d17
+      internalID: 1986976360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_32
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c03c156a01a7684cbe11a941d29a18d
+      internalID: 1463531282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_33
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf5c8cb39d9e14c9657c7a2010d67a
+      internalID: 930242915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_34
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4361987810b415643b637e4e655e66a1
+      internalID: 294533244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_35
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27f332ec5cc5104b97613b9aafe2185
+      internalID: -759627658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b705e4aacffb4a4a8ff59fe928d57ae
+      internalID: -785176590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_37
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11cce907921e1b4ab8cc386c873c20f
+      internalID: 1370250598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_38
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 7000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326ea9dfcfcb33040aedd598f745620b
+      internalID: -1203766740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da120f4f545bbcf4687ba0432acff700
+      internalID: -1747676688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_40
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96a2db1c9c32134bbd8780123498cfa
+      internalID: -1720622531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_41
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0f93112529ac943ae51611324b44df
+      internalID: -1895513065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_42
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79838162a191ce54eafadb411854f5a7
+      internalID: -428227530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_43
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc21954dca0f3b4ca0503f9cf8a78df
+      internalID: -981677442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_44
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aaf64dbf280e54ca13dc0ace79fa2a
+      internalID: -812793331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_45
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3592e00cda78b214397f3309b19297a8
+      internalID: -564337322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_46
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d5b6f81b64729448f2ccff1449fbb8
+      internalID: -218517972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_47
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65811bf42681a9748bc4ad4bf9d1f374
+      internalID: -202048325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_48
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dcd98cd977a3a42877a7a7557c1b68
+      internalID: 1141502184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_49
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00824a14fd9f2954dab88cb6f88377e8
+      internalID: 1531970793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_50
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec6e9672006fe428475792fa98de58
+      internalID: 2136820433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_51
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 6000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c6533ccc4b5144897a1a3ce3d670bb
+      internalID: -2028746941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba694d8a824069842805063dd091ddfa
+      internalID: 1534758408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_53
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47641a543ee71ee49af842459bfd09de
+      internalID: 714270067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_54
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaba9bbf8395af4cbc7db43ff89ae73
+      internalID: -816470713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_55
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd48a48704d837a4d97e660cba37b2cf
+      internalID: -615024803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_56
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2992a6fc04ce5104aab18d1087248511
+      internalID: -370044016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_57
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d81e85494133642b8355880a61116c
+      internalID: -239610988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_58
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a0f7e57aabe546a6cd1afbfdd1506
+      internalID: 1468499750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_59
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31c2d4abd08495448a207fa001be0be
+      internalID: 769303737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_60
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b292f34b9f21a2c42bf92b7f4adbbe9d
+      internalID: -280162472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_61
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde7f59f258b5c242b8d34a48e7b62b8
+      internalID: 2132496603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_62
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef86bfdb5c8f284fa643e024c3cd3fa
+      internalID: -109810742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_63
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdfca3e0ff2acb4b9d0c26da276d1bb
+      internalID: -1293411098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_64
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 5000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d507d4cb61a2844c95db3c6e07c0cc1
+      internalID: 942190068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07446d65da778446bc8eaeb7c33e53f
+      internalID: -1270714379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_66
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38beb83dcedaa64a9c2bb7b009736b0
+      internalID: -25313039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_67
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1233062d194bd934ab94df16a67f43dd
+      internalID: 2090820820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_68
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f7c87eefa1bbe43bbf4c21d67f3c43
+      internalID: 456588299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_69
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f580d8607501548aab3db37ff5aaec
+      internalID: 1783941582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_70
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc3e537b0465dd40afa9acd675fe407
+      internalID: 1532219236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_71
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32bb4770992c4c42ba3992a99a14ddb
+      internalID: 592250728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_72
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c611235bcb6d1b343afb49152f43d95a
+      internalID: 91431285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_73
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa3700b991c300428d6e30a8fa0a54c
+      internalID: -1887513241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_74
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afed971bedc41e46bc1ec0046afa484
+      internalID: 922385561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_75
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0d248c3a03784dbdba8b98c65d8ba
+      internalID: -1953666043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_76
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a775b708bf933d547b327c47e6254176
+      internalID: 1055726708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_77
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 4000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cc8d9d048e4fd4ab5a07ab61eb2e1b
+      internalID: -1184415292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d79e0eed9f2f4d83c2336e4886673
+      internalID: -92703055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_79
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f77dad1718a7439f7d74336a4eaf7
+      internalID: 132010606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_80
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217a42b9f440c440a0ba65ead49a4dc
+      internalID: 1221498664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_81
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aafe8f891b3a8a45a66d7d1ba3682ef
+      internalID: 1251312491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_82
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08edbad0951a4544a9ad4de4a96569af
+      internalID: 677855625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_83
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a7ad090f8bae24994ba19eb6eb8e29
+      internalID: 1928687241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_84
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f434bcbb3b13f6d47a6acdabf116e2f0
+      internalID: 1539209332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_85
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13167e67a0da1e34eabad488f1f321c9
+      internalID: 1609023998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_86
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f61580cd89d4f41abe49d035b9c1ef
+      internalID: -1323322091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_87
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ead880cfc73c18419fe4246f87f4556
+      internalID: -1441639724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_88
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd230701366cc847b42cfd04ec54d41
+      internalID: 624764619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_89
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1087601c495b5f4894c5214a05b9d09
+      internalID: -2024693207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_90
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 3000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac3cf43d4b2bb547b01cc2f58841d28
+      internalID: -229192822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7d11e81024a6b4fa7122f8892936ba
+      internalID: -1899347987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_92
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967f8eb7b2154d0459089eb972ebcbe6
+      internalID: 1230355824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_93
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701381da09ef2524aa801114dd12b4c9
+      internalID: 1146380796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_94
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fc808e49e0e0047bf11508a7734401
+      internalID: 1698022965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_95
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18d26dfacf23924eaf6cab7487a0544
+      internalID: 2046746935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_96
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec18c8c0d6a0a44c9cd2c25c0fa492f
+      internalID: 687792146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_97
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6b6fc60120f7a4f952a5030e9f0b5b
+      internalID: -662156884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_98
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad5d13c393c817438138d7847827221
+      internalID: -578511039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_99
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44695a5387fb7984ca8ffa03aa828023
+      internalID: -485516070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_100
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6853bb772402640a86b4c99634e0b2
+      internalID: 492395392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_101
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109b7d512c71b743be47cd46d3dca58
+      internalID: -2061933561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_102
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c003c01ae8294419d30771da729e41
+      internalID: -23758745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_103
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 2000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adde8ad3b92de94aa2334b53fa96156
+      internalID: 984955950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673924902f2d068498455c2678aa7b1a
+      internalID: 2093225750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_105
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3f21ff8d8597948ba29d2e67c4dd78
+      internalID: -1583699199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_106
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725e354716be94e4ba33956d350b7fab
+      internalID: -1667570826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_107
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bfe3dd1fc305741b8b76660a369de0
+      internalID: -301867889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_108
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714eb39fefdf29e43993d6d131b60f76
+      internalID: -165619383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_109
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8d03b05ca17cd4387d90ef50a994be
+      internalID: -825092264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_110
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec91bf87bb32f6f4d865edb6dbeca647
+      internalID: 224034729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_111
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346cbc30e879264cb8c96544a529631
+      internalID: 578751116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_112
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ffe093473d04e40bffcc9419329213
+      internalID: 1852592446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_113
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fe0f0c0b2abb040aad1b56e796b172
+      internalID: 1595064558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_114
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a559cb23c241646b1aa1420f122b31
+      internalID: 740401585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_115
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249d4bfa47be0d4f81ac95963f477f6
+      internalID: 1958376700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_116
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 1000
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb916b8a31fd2c4bb40aca3ab61e8f2
+      internalID: 948067190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7335ffebced54895bf3bacf1ae0a8
+      internalID: -802971676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_118
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ed059e16231140aa6b80bdb7364ee
+      internalID: 411669902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_119
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cee42da5bd359439251d0cb2762f36
+      internalID: 1922862727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_120
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225c1b269bda3064f8771fed5058ab5a
+      internalID: -1648556019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_121
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9230f8ec68d2ef44d93dfbd0f5fe5aac
+      internalID: -307825987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_122
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2344607010f4f304983709913b3408c0
+      internalID: -1508627203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_123
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e08ef4233fab345aa5777eaeeefa15
+      internalID: -1063991222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_124
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec61967e7cd7e054cbec03b40bc5e3a3
+      internalID: 394210301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_125
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2feea743065d4a74285058e6fcdd99f8
+      internalID: -673949201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_126
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e16a7ac45f8211449fb41cf6124e4e6
+      internalID: -918855922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bera-burucu-blackhole-x_127
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1829d4563fa91a45bc579cae027fb23
+      internalID: 358350958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21d6132f7b416194a9ab75426b9c876a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bera-burucu-blackhole-x_0: 1016961563
+      bera-burucu-blackhole-x_1: -1368130879
+      bera-burucu-blackhole-x_10: -1115574141
+      bera-burucu-blackhole-x_100: 492395392
+      bera-burucu-blackhole-x_101: -2061933561
+      bera-burucu-blackhole-x_102: -23758745
+      bera-burucu-blackhole-x_103: 984955950
+      bera-burucu-blackhole-x_104: 2093225750
+      bera-burucu-blackhole-x_105: -1583699199
+      bera-burucu-blackhole-x_106: -1667570826
+      bera-burucu-blackhole-x_107: -301867889
+      bera-burucu-blackhole-x_108: -165619383
+      bera-burucu-blackhole-x_109: -825092264
+      bera-burucu-blackhole-x_11: 1282286546
+      bera-burucu-blackhole-x_110: 224034729
+      bera-burucu-blackhole-x_111: 578751116
+      bera-burucu-blackhole-x_112: 1852592446
+      bera-burucu-blackhole-x_113: 1595064558
+      bera-burucu-blackhole-x_114: 740401585
+      bera-burucu-blackhole-x_115: 1958376700
+      bera-burucu-blackhole-x_116: 948067190
+      bera-burucu-blackhole-x_117: -802971676
+      bera-burucu-blackhole-x_118: 411669902
+      bera-burucu-blackhole-x_119: 1922862727
+      bera-burucu-blackhole-x_12: 884039770
+      bera-burucu-blackhole-x_120: -1648556019
+      bera-burucu-blackhole-x_121: -307825987
+      bera-burucu-blackhole-x_122: -1508627203
+      bera-burucu-blackhole-x_123: -1063991222
+      bera-burucu-blackhole-x_124: 394210301
+      bera-burucu-blackhole-x_125: -673949201
+      bera-burucu-blackhole-x_126: -918855922
+      bera-burucu-blackhole-x_127: 358350958
+      bera-burucu-blackhole-x_13: 103610540
+      bera-burucu-blackhole-x_14: 1103560581
+      bera-burucu-blackhole-x_15: -948475483
+      bera-burucu-blackhole-x_16: 730841120
+      bera-burucu-blackhole-x_17: 1560603329
+      bera-burucu-blackhole-x_18: 1840933839
+      bera-burucu-blackhole-x_19: -1283710838
+      bera-burucu-blackhole-x_2: -414704730
+      bera-burucu-blackhole-x_20: 658325174
+      bera-burucu-blackhole-x_21: -84687020
+      bera-burucu-blackhole-x_22: 473096023
+      bera-burucu-blackhole-x_23: 1440877312
+      bera-burucu-blackhole-x_24: -422021791
+      bera-burucu-blackhole-x_25: -74329863
+      bera-burucu-blackhole-x_26: -152298305
+      bera-burucu-blackhole-x_27: 59638454
+      bera-burucu-blackhole-x_28: 2055444225
+      bera-burucu-blackhole-x_29: -563639550
+      bera-burucu-blackhole-x_3: 744233485
+      bera-burucu-blackhole-x_30: 752475378
+      bera-burucu-blackhole-x_31: 1986976360
+      bera-burucu-blackhole-x_32: 1463531282
+      bera-burucu-blackhole-x_33: 930242915
+      bera-burucu-blackhole-x_34: 294533244
+      bera-burucu-blackhole-x_35: -759627658
+      bera-burucu-blackhole-x_36: -785176590
+      bera-burucu-blackhole-x_37: 1370250598
+      bera-burucu-blackhole-x_38: -1203766740
+      bera-burucu-blackhole-x_39: -1747676688
+      bera-burucu-blackhole-x_4: 1994039222
+      bera-burucu-blackhole-x_40: -1720622531
+      bera-burucu-blackhole-x_41: -1895513065
+      bera-burucu-blackhole-x_42: -428227530
+      bera-burucu-blackhole-x_43: -981677442
+      bera-burucu-blackhole-x_44: -812793331
+      bera-burucu-blackhole-x_45: -564337322
+      bera-burucu-blackhole-x_46: -218517972
+      bera-burucu-blackhole-x_47: -202048325
+      bera-burucu-blackhole-x_48: 1141502184
+      bera-burucu-blackhole-x_49: 1531970793
+      bera-burucu-blackhole-x_5: 1786307206
+      bera-burucu-blackhole-x_50: 2136820433
+      bera-burucu-blackhole-x_51: -2028746941
+      bera-burucu-blackhole-x_52: 1534758408
+      bera-burucu-blackhole-x_53: 714270067
+      bera-burucu-blackhole-x_54: -816470713
+      bera-burucu-blackhole-x_55: -615024803
+      bera-burucu-blackhole-x_56: -370044016
+      bera-burucu-blackhole-x_57: -239610988
+      bera-burucu-blackhole-x_58: 1468499750
+      bera-burucu-blackhole-x_59: 769303737
+      bera-burucu-blackhole-x_6: -425715461
+      bera-burucu-blackhole-x_60: -280162472
+      bera-burucu-blackhole-x_61: 2132496603
+      bera-burucu-blackhole-x_62: -109810742
+      bera-burucu-blackhole-x_63: -1293411098
+      bera-burucu-blackhole-x_64: 942190068
+      bera-burucu-blackhole-x_65: -1270714379
+      bera-burucu-blackhole-x_66: -25313039
+      bera-burucu-blackhole-x_67: 2090820820
+      bera-burucu-blackhole-x_68: 456588299
+      bera-burucu-blackhole-x_69: 1783941582
+      bera-burucu-blackhole-x_7: 583671185
+      bera-burucu-blackhole-x_70: 1532219236
+      bera-burucu-blackhole-x_71: 592250728
+      bera-burucu-blackhole-x_72: 91431285
+      bera-burucu-blackhole-x_73: -1887513241
+      bera-burucu-blackhole-x_74: 922385561
+      bera-burucu-blackhole-x_75: -1953666043
+      bera-burucu-blackhole-x_76: 1055726708
+      bera-burucu-blackhole-x_77: -1184415292
+      bera-burucu-blackhole-x_78: -92703055
+      bera-burucu-blackhole-x_79: 132010606
+      bera-burucu-blackhole-x_8: 402040252
+      bera-burucu-blackhole-x_80: 1221498664
+      bera-burucu-blackhole-x_81: 1251312491
+      bera-burucu-blackhole-x_82: 677855625
+      bera-burucu-blackhole-x_83: 1928687241
+      bera-burucu-blackhole-x_84: 1539209332
+      bera-burucu-blackhole-x_85: 1609023998
+      bera-burucu-blackhole-x_86: -1323322091
+      bera-burucu-blackhole-x_87: -1441639724
+      bera-burucu-blackhole-x_88: 624764619
+      bera-burucu-blackhole-x_89: -2024693207
+      bera-burucu-blackhole-x_9: 92170230
+      bera-burucu-blackhole-x_90: -229192822
+      bera-burucu-blackhole-x_91: -1899347987
+      bera-burucu-blackhole-x_92: 1230355824
+      bera-burucu-blackhole-x_93: 1146380796
+      bera-burucu-blackhole-x_94: 1698022965
+      bera-burucu-blackhole-x_95: 2046746935
+      bera-burucu-blackhole-x_96: 687792146
+      bera-burucu-blackhole-x_97: -662156884
+      bera-burucu-blackhole-x_98: -578511039
+      bera-burucu-blackhole-x_99: -485516070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
