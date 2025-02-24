@@ -35,7 +35,7 @@ public class OrbiterScript : MonoBehaviour
 		rotOffset.Scale((Vector3)scale);
 		rotOffset = Quaternion.Euler(0, 0, rotation) * rotOffset;
 
-		transform.position = whoIOrbit.position + (Vector3)offset + rotOffset;
+		transform.position = whoIOrbit.position + (Vector3)offset + (Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0) * rotOffset);
     }
 
 	private void Reset()
