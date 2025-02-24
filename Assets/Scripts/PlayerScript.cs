@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(LineRenderer))]
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(AudioSource))]
 public class PlayerScript : MonoBehaviour
 {
 	bool Dragging = false;
@@ -18,16 +19,20 @@ public class PlayerScript : MonoBehaviour
 	private float minimumSpeed;
 	[SerializeField]
 	private Collider2D CamConfiner;
+	[SerializeField]
+	private AudioClip hitFX;
 
 	Rigidbody2D rb;
 	LineRenderer lr;
 	Collider2D col;
+	AudioSource sound;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		lr = GetComponent<LineRenderer>();
 		col = rb.GetComponent<Collider2D>();
+		sound = rb.GetComponent<AudioSource>();
 		lr.enabled = false;
 	}
 
@@ -115,6 +120,8 @@ public class PlayerScript : MonoBehaviour
 
 		lr.enabled = false;
 		Dragging = false;
+
+		sound.PlayOneShot(hitFX);
 	}
 
 	private void startMouseDragging()
@@ -140,6 +147,8 @@ public class PlayerScript : MonoBehaviour
 		lr.enabled = false;
 
 		MouseDragging = false;
+
+		sound.PlayOneShot(hitFX);
 	}
 
 	public void resetShot()
