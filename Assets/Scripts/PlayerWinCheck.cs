@@ -7,6 +7,8 @@ public class PlayerWinCheck : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Collision detected with: " + collision.gameObject.tag);
+        Debug.Log(GameObject.Find("GameEndMenu").name);
         if (collision.gameObject.CompareTag("Winnable"))
         {
             //check if a canvas with the name "GameEndMenu" exists

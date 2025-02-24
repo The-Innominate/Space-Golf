@@ -1943,6 +1943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638aab5db2652964b9a07ede3043eeef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenuOverlay: {fileID: 2127168661}
 --- !u!1 &1314187051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,6 +4359,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2368262307105871764, guid: c9b6c1e9154a76a45a373a789828347a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462661605784031851, guid: c9b6c1e9154a76a45a373a789828347a, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7812917044840523806, guid: c9b6c1e9154a76a45a373a789828347a, type: 3}
