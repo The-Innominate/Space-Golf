@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8bbeb36216fdc9d47a30c97a4fb47640
+guid: 5ca0c35783cd82f459333d11d0641de3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6899527831451061053
-    second: GameOver_0
+      213: 7409355029818179733
+    second: levelCompleted_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameOver_0
+      name: levelCompleted_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
-        height: 270
+        width: 608
+        height: 342
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c430781ef3ff30a0800000000000000
-      internalID: -6899527831451061053
+      spriteID: 5900117a42153d660800000000000000
+      internalID: 7409355029818179733
       vertices: []
       indices: 
       edges: []
