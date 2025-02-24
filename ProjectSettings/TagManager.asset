@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Winnable
-  - PlayerKiller
+  - Planet
   layers:
   - Default
   - TransparentFX
@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2041652269
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -22,17 +22,19 @@ public class GravityArea : MonoBehaviour
 	/// </summary>
 	[SerializeField, Range(0.0f,1.0f)] private float gravityFalloff = 0.25f;
 
-    void Update()
-    {
-        foreach (var body in bodies)
-        {
-			Vector2 direction = transform.position - body.transform.position;
-			float distance = Vector3.Distance(transform.position, body.transform.position);
-			float gravStrength = Mathf.Lerp( strength, strength * gravityFalloff, distance/areaOfEffect.radius);
-
-			body.AddForce(direction * gravStrength * Time.deltaTime, ForceMode2D.Impulse);
-        }
-    }
+	void Update()
+	{
+		foreach (var body in bodies)
+		{
+			if (body.GetComponent<ObstacleScript>())
+			{
+				Vector2 direction = transform.position - body.transform.position;
+				float distance = Vector3.Distance(transform.position, body.transform.position);
+				float gravStrength = Mathf.Lerp(strength, strength * gravityFalloff, distance / (areaOfEffect.radius * transform.lossyScale.x));
+				body.GetComponent<ObstacleScript>().TryApplyGravity(direction * gravStrength, distance);
+			}
+		}
+	}
 
 	private void Reset()
 	{
@@ -62,21 +64,21 @@ public class GravityArea : MonoBehaviour
 		// Area of effect of gravity
 		// also fully fallen off gravity
 		Gizmos.color = Color.green;
-		Gizmos.DrawWireSphere(transform.position, areaOfEffect.radius);
+		Gizmos.DrawWireSphere(transform.position, areaOfEffect.radius * transform.lossyScale.x);
 	}
 
 	private void OnDrawGizmosSelected()
 	{
 		// 66% gravity fall off
 		Gizmos.color = Color.yellow;
-		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius, areaOfEffect.radius, 0.66f));
+		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius * transform.lossyScale.x, areaOfEffect.radius * transform.lossyScale.x, 0.66f));
 
 		// 33% gravity fall off
 		Gizmos.color = Color.red;
-		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius, areaOfEffect.radius, 0.33f));
+		Gizmos.DrawWireSphere(transform.position, Mathf.Lerp(gravityFalloff * areaOfEffect.radius * transform.lossyScale.x, areaOfEffect.radius * transform.lossyScale.x, 0.33f));
 
 		// full strength gravity
 		Gizmos.color = Color.magenta;
-		Gizmos.DrawWireSphere(transform.position, gravityFalloff * areaOfEffect.radius);
+		Gizmos.DrawWireSphere(transform.position, gravityFalloff * areaOfEffect.radius * transform.lossyScale.x);
 	}
 }
