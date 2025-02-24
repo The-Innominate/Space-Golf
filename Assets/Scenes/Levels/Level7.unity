@@ -454,7 +454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2462670696090506440, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: m_Radius
-      value: 24
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 2631519184744280709, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: strength
@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2631519184744280709, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: gravityFalloff
-      value: 0.25
+      value: 0.266
       objectReference: {fileID: 0}
     - target: {fileID: 3577386360856380616, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: m_Name
@@ -547,11 +547,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184711035380829115, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
       propertyPath: gravityFalloff
-      value: 0.25
+      value: 0.266
       objectReference: {fileID: 0}
     - target: {fileID: 1646295849290952182, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
       propertyPath: m_Radius
-      value: 24
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 3326086300461206794, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
       propertyPath: m_SortingOrder
