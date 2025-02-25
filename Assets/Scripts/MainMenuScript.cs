@@ -15,7 +15,10 @@ public class MainMenuScript : MonoBehaviour
     // Start is called before the first frame update, it's a default Unity method
     private void Start()
     {
-        cameraTransform = Camera.main.transform;
+        // reset the width of the scrolling level selection
+        levelButtonContainer.GetComponent<RectTransform>().offsetMin = new Vector2(0, levelButtonContainer.GetComponent<RectTransform>().offsetMin.y);
+
+		cameraTransform = Camera.main.transform;
         /* The 'Resources.LoadAll' method is used to load all assets in a folder or file at the specified path.
 
             If you don't have a 'Resources' folder created you won't be able to load the assets this way.
@@ -32,8 +35,15 @@ public class MainMenuScript : MonoBehaviour
             //just parsing the name to a string
             string sceneName = thumbnail.name;
 
+            // this adds increases the width of the scrolling container by the width of the container objects
+            // The width is 104 by guess and check because I don't know how to programatically do this sorry
+            levelButtonContainer.GetComponent<RectTransform>().offsetMin += Vector2.left * 104;
+
             container.GetComponent<Button>().onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
         }
+
+        // sets the scrolling level selection to be at the beginning (there is very likely a better way to do this)
+        levelButtonContainer.GetComponent<RectTransform>().localPosition = new Vector2(-levelButtonContainer.GetComponent<RectTransform>().localPosition.x, 0);
 
         //reinstantiate the timescale to 1
         Time.timeScale = 1;
