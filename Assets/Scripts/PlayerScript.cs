@@ -156,8 +156,10 @@ public class PlayerScript : MonoBehaviour
 
 	public void resetShot()
 	{
+		rb.linearVelocity = Vector3.zero;
 		transform.position = LastShotPosition;
-		rb.linearVelocity = Vector2.zero;
+		rb.linearVelocity = Vector3.zero;
+		rb.angularVelocity = 0;
 	}
 
 	private void OnCollisionEnter2D(Collision2D collision)
