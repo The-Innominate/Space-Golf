@@ -31,7 +31,8 @@ public class MainMenuScript : MonoBehaviour
 
             //just parsing the name to a string
             string sceneName = thumbnail.name;
-            container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
+
+            container.GetComponent<Button>().onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
         }
 
         //reinstantiate the timescale to 1
