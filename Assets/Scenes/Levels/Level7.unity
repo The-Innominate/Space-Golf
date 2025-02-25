@@ -1220,7 +1220,7 @@ Transform:
   m_GameObject: {fileID: 653973531}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38147807, y: 1.1488833, z: -10}
+  m_LocalPosition: {x: 0.3814783, y: 1.1488833, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2073,7 +2073,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2096514830}
+      - m_Target: {fileID: 2096514831}
         m_TargetAssemblyTypeName: PlayerWinCheck, Assembly-CSharp
         m_MethodName: OnNextLevelButtonClicked
         m_Mode: 1
@@ -2339,7 +2339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468682283272358157, guid: dcf8132b2e2cccf439c5265be1c627a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1755855
+      value: -4.1655855
       objectReference: {fileID: 0}
     - target: {fileID: 8468682283272358157, guid: dcf8132b2e2cccf439c5265be1c627a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2461,6 +2461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet8
       objectReference: {fileID: 0}
+    - target: {fileID: 3577386360856380616, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
+      propertyPath: m_TagString
+      value: Planet
+      objectReference: {fileID: 0}
     - target: {fileID: 7257153156895024802, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -2475,7 +2479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7257153156895024802, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 7257153156895024802, guid: ddd2e8e8a41e5b54aa3d9e885f070fd9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2605,7 +2609,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2096514831}
         m_TargetAssemblyTypeName: PlayerWinCheck, Assembly-CSharp
         m_MethodName: OnMainMenuButtonClicked
         m_Mode: 1
@@ -2819,6 +2823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet9
       objectReference: {fileID: 0}
+    - target: {fileID: 4302497570848477385, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
+      propertyPath: m_TagString
+      value: Planet
+      objectReference: {fileID: 0}
     - target: {fileID: 8412469151336971313, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -2833,7 +2841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8412469151336971313, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8412469151336971313, guid: afd6f9d54d99d40428da0c16cae0bf80, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3817,7 +3825,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2096514830}
+      - m_Target: {fileID: 2096514831}
         m_TargetAssemblyTypeName: PlayerWinCheck, Assembly-CSharp
         m_MethodName: OnMainMenuButtonClicked
         m_Mode: 1
@@ -3892,7 +3900,7 @@ Transform:
   m_GameObject: {fileID: 1768283350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: 0.8583471, w: -0.5130695}
-  m_LocalPosition: {x: 7.01, y: -1.9, z: 0}
+  m_LocalPosition: {x: 9, y: -1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4686,7 +4694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197985438657244064, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.01
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 3197985438657244064, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4724,35 +4732,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
-      propertyPath: nextLevelToLoad
-      value: 
-      objectReference: {fileID: 102900000, guid: f899599faf684fb4d93c52cf40bff547, type: 3}
-    - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
-      propertyPath: pauseMenuOverlay
-      value: 
-      objectReference: {fileID: 263568314}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2662543113848732763, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096514831}
   m_SourcePrefab: {fileID: 100100000, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
 --- !u!4 &2096514829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3197985438657244064, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
   m_PrefabInstance: {fileID: 2096514828}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2096514830 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
+--- !u!1 &2096514830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2662543113848732763, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
   m_PrefabInstance: {fileID: 2096514828}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &2096514831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096514830}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638aab5db2652964b9a07ede3043eeef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenuOverlay: {fileID: 263568314}
+  nextLevelToLoad: {fileID: 102900000, guid: 578864468367006479b96ec7a32d02f5, type: 3}
 --- !u!1 &2109687646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4917,7 +4928,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2096514831}
         m_TargetAssemblyTypeName: PlayerWinCheck, Assembly-CSharp
         m_MethodName: OnRestartButtonClicked
         m_Mode: 1

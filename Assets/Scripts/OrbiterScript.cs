@@ -29,6 +29,8 @@ public class OrbiterScript : MonoBehaviour
 
 	void Update()
     {
+		
+
 		angle += Time.deltaTime * speed;
 
         Vector3 rotOffset = (Quaternion.Euler(0, 0, angle) * Vector3.right * distance);
@@ -41,6 +43,14 @@ public class OrbiterScript : MonoBehaviour
 	private void Reset()
 	{
 		rb = GetComponent<Rigidbody2D>();
+	}
+
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.transform.GetComponent<PlayerScript>() && !transform.tag.Equals("Planet"))
+		{
+			collision.rigidbody.AddForce(Quaternion.Euler(0, 0, angle) * Vector3.up * speed,ForceMode2D.Impulse);
+		}
 	}
 
 	private void OnDrawGizmos()

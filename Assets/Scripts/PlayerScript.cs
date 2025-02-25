@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -34,6 +35,7 @@ public class PlayerScript : MonoBehaviour
 		col = rb.GetComponent<Collider2D>();
 		sound = rb.GetComponent<AudioSource>();
 		lr.enabled = false;
+		LastShotPosition = transform.position;
 	}
 
 	// Update is called once per frame
@@ -42,6 +44,7 @@ public class PlayerScript : MonoBehaviour
 		if (rb.linearVelocity.magnitude < minimumSpeed)
 		{
 			rb.linearVelocity = Vector3.zero;
+			rb.angularVelocity = 0;
 
 			TouchUpdate();
 			MouseUpdate();
@@ -59,7 +62,7 @@ public class PlayerScript : MonoBehaviour
 		{
 			Touch touch = Input.GetTouch(0);
 
-			if (touch.phase == TouchPhase.Began)
+			if (touch.phase == TouchPhase.Began || (touch.phase == TouchPhase.Moved && !Dragging))
 			{
 				startDragging(touch);
 			}
@@ -83,7 +86,7 @@ public class PlayerScript : MonoBehaviour
 
 	private void MouseUpdate()
 	{
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) || (Input.GetMouseButton(0) && !MouseDragging))
 		{
 			startMouseDragging();
 		}
@@ -164,6 +167,22 @@ public class PlayerScript : MonoBehaviour
 		if (collision.collider.tag.Equals("Planet"))
 		{
 			rb.linearDamping = 2;
+			rb.linearVelocity *= 0.5f;
+			if (rb.linearVelocity.magnitude < minimumSpeed)
+			{
+				transform.SetParent(collision.transform, true);
+			}
+		}
+	}
+
+	private void OnCollisionStay2D(Collision2D collision)
+	{
+		if (collision.collider.tag.Equals("Planet"))
+		{
+			if (rb.linearVelocity.magnitude < minimumSpeed)
+			{
+				transform.SetParent(collision.transform, true);
+			}
 		}
 	}
 
@@ -171,7 +190,11 @@ public class PlayerScript : MonoBehaviour
 	{
 		if (collision.collider.tag.Equals("Planet"))
 		{
-			rb.linearDamping = 0.1f;
+			if (rb.linearVelocity.magnitude > minimumSpeed)
+			{
+				transform.parent = null;
+			}
+			rb.linearDamping = 0.2f;
 		}
 	}
 }
