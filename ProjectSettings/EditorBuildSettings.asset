@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 578864468367006479b96ec7a32d02f5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/Playground.unity
     guid: 26252af8d945f694c8d4b86556f912f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/1_Training.unity
     guid: 79992bd8acdc1214b8725affab10b346
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/GravityTestScene.unity
     guid: 2f80e14bf1357f64ca213343c6b4b9be
   - enabled: 1
@@ -42,6 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level8.unity
     guid: f899599faf684fb4d93c52cf40bff547
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6102990af56542e40a97892b7dafc970, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b94644aa4c7ec9a428e453daa56099a2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
