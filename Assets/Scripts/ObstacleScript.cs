@@ -48,7 +48,7 @@ public class ObstacleScript : MonoBehaviour
 		}
 
 		//Debug.Log(((Vector3.Dot(usedforce.normalized, rb.linearVelocity.normalized) / 2.0f) + 1.0f));
-		rb.AddForce(usedforce * ((Vector3.Dot(usedforce.normalized, rb.linearVelocity.normalized) / 2.0f) + 1.5f) * Time.deltaTime, ForceMode2D.Impulse);
+		rb.AddForce(usedforce * Mathf.Clamp((Vector3.Dot(usedforce.normalized, rb.linearVelocity.normalized) / 2.0f) + 1.5f, 0.5f, 1.0f) * Time.deltaTime, ForceMode2D.Impulse);
 
 		forces.Clear();
 	}
