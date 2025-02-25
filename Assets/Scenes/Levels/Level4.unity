@@ -2398,8 +2398,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: nextLevelToLoad
-      value: 
-      objectReference: {fileID: 102900000, guid: 471c6bf9a71a8a34582bab84bd694625, type: 3}
+      value: Level5
+      objectReference: {fileID: 0}
     - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: pauseMenuOverlay
       value: 

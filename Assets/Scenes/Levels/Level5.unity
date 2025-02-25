@@ -2207,8 +2207,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: nextLevelToLoad
-      value: 
-      objectReference: {fileID: 102900000, guid: 87eabad08751d76448a666ac5c188bd7, type: 3}
+      value: Level6
+      objectReference: {fileID: 0}
     - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: pauseMenuOverlay
       value: 
@@ -3897,7 +3897,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2476272982876253571, guid: d8728420831693445b5d22f59aaa6901, type: 3}
       propertyPath: strength
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6140008643797720177, guid: d8728420831693445b5d22f59aaa6901, type: 3}
       propertyPath: m_LocalScale.x

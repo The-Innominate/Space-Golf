@@ -5,7 +5,7 @@ public class PlayerWinCheck : MonoBehaviour
 {
     //this will be UI elements that need to be disabled or enabled
     public GameObject pauseMenuOverlay;
-    public SceneAsset nextLevelToLoad;
+    public string nextLevelToLoad;
     public AudioClip WinFX;
     private AudioSource winFXSource;
 
@@ -66,6 +66,6 @@ public class PlayerWinCheck : MonoBehaviour
     {
         Time.timeScale = 1;
         //load the next level scene
-        UnityEngine.SceneManagement.SceneManager.LoadScene(nextLevelToLoad.name);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextLevelToLoad);
     }
 }
