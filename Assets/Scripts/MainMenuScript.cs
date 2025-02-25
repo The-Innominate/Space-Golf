@@ -23,7 +23,7 @@ public class MainMenuScript : MonoBehaviour
 
             If you don't have a 'Resources' folder created you won't be able to load the assets this way.
         */
-        Sprite[] thumbnails = Resources.LoadAll<Sprite>("LevelSprites");
+        Sprite[] thumbnails = Resources.LoadAll<Sprite>("UpdatedLevelSprites");
 
         foreach (Sprite thumbnail in thumbnails)
         {
