@@ -14,6 +14,8 @@ public class PlayerScript : MonoBehaviour
 	Vector3 dragEndPoint = Vector3.zero;
 	Vector3 LastShotPosition = Vector3.zero;
 
+	int strokes = 0;
+
 	[SerializeField]
 	private float power;
 	[SerializeField]
@@ -120,6 +122,7 @@ public class PlayerScript : MonoBehaviour
 
 		Vector2 forceDirection = dragStartPoint - dragEndPoint;
 		rb.AddForce(forceDirection * power, ForceMode2D.Impulse);
+		strokes++;
 
 		lr.enabled = false;
 		Dragging = false;
@@ -144,6 +147,7 @@ public class PlayerScript : MonoBehaviour
 
 		Vector2 forceDirection = dragStartPoint - dragEndPoint;
 		rb.AddForce(forceDirection * power, ForceMode2D.Impulse);
+		strokes++;
 
 		print("Adding force: " + forceDirection);
 
@@ -196,5 +200,10 @@ public class PlayerScript : MonoBehaviour
 			}
 			rb.linearDamping = 0.2f;
 		}
+	}
+
+	public int getStrokes()
+	{
+		return strokes;
 	}
 }
