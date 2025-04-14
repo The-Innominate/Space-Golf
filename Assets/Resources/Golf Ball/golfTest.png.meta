@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      golfTest_0: -1446882164949869723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
