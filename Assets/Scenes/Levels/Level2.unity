@@ -2610,7 +2610,7 @@ PrefabInstance:
     - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: pauseMenuOverlay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1580423016}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

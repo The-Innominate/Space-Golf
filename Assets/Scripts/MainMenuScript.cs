@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;
 
 public class MainMenuScript : MonoBehaviour
 {
@@ -40,7 +41,18 @@ public class MainMenuScript : MonoBehaviour
             levelButtonContainer.GetComponent<RectTransform>().offsetMin += Vector2.left * 104;
 
             container.GetComponent<Button>().onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
-        }
+
+			// this is the score for the level
+            int HighScore = LevelHighScores.Instance.LoadFromJson(sceneName);
+			if (HighScore <= 0)
+			{
+				container.GetComponentInChildren<TextMeshProUGUI>().text = "No Score";
+			}
+			else
+			{
+				container.GetComponentInChildren<TextMeshProUGUI>().text = "Lowest Strokes: " + HighScore.ToString();
+			}
+		}
 
         // sets the scrolling level selection to be at the beginning (there is very likely a better way to do this)
         levelButtonContainer.GetComponent<RectTransform>().localPosition = new Vector2(-levelButtonContainer.GetComponent<RectTransform>().localPosition.x, 0);

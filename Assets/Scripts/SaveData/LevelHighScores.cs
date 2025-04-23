@@ -43,16 +43,19 @@ public sealed class LevelHighScores
 			data.Add(levelName, score);
 			string json = JsonConvert.SerializeObject(data, Formatting.Indented);
 			File.WriteAllText(filePath, json);
+			Debug.Log(filePath);
 		}
 		else if (existingScore > score)
 		{
 			data[levelName] = score;
 			string json = JsonConvert.SerializeObject(data, Formatting.Indented);
 			File.WriteAllText(filePath, json);
+			Debug.Log(filePath);
 		}
 		else
 		{
 			Debug.Log("Score not saved, existing score is lower.");
+			Debug.Log(filePath);
 		}
 	}
 
