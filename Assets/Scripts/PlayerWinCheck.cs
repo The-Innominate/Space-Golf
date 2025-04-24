@@ -29,8 +29,15 @@ public class PlayerWinCheck : MonoBehaviour
                 pauseMenuOverlay.SetActive(false);
                 GameObject.Find("GameEndMenu").transform.GetChild(1).gameObject.SetActive(true);
 
-                //sets the timescale to 0, so the game stops
-                Time.timeScale = 0;
+				//get the level name from the scene name
+				string levelName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+				//get the score from the player script
+				int score = GetComponent<PlayerScript>().getStrokes();
+				//save the score to the json file
+                LevelHighScores.Instance.SaveToJson(levelName, score);
+
+				//sets the timescale to 0, so the game stops
+				Time.timeScale = 0;
             }
         }
 

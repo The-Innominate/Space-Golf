@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad7aaafcada30a41b1c7f08e7602637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 8975033977438577171}
   whoIOrbit: {fileID: 0}
   displayGizmo: 0
   offset: {x: 0, y: 0}
