@@ -9,7 +9,7 @@ public class MainMenuScript : MonoBehaviour
     public GameObject levelButtonPrefab;
     public GameObject levelButtonContainer;
 
-    public GameObject shopButton;
+    public GameObject shopButtonPrefab;
     public GameObject shopButtonContainer;
 
     private Transform cameraTransform;
@@ -57,8 +57,27 @@ public class MainMenuScript : MonoBehaviour
 			}
 		}
 
-        // sets the scrolling level selection to be at the beginning (there is very likely a better way to do this)
-        levelButtonContainer.GetComponent<RectTransform>().localPosition = new Vector2(-levelButtonContainer.GetComponent<RectTransform>().localPosition.x, 0);
+        Sprite[] textures = Resources.LoadAll<Sprite>("GolfBall");
+        foreach (Sprite texture in textures)
+        {
+            GameObject container = Instantiate(shopButtonPrefab) as GameObject;
+            container.GetComponent<Image>().sprite = texture;
+            //make sure to set a 'transform' as a parent, since setting just a game object will not work
+            container.transform.SetParent(shopButtonContainer.transform, false);
+
+            //just parsing the name to a string
+            string sceneName = texture.name;
+
+            // this adds increases the width of the scrolling container by the width of the container objects
+            // The width is 104 by guess and check because I don't know how to programatically do this sorry
+            shopButtonContainer.GetComponent<RectTransform>().offsetMin += Vector2.left * 104;
+
+            container.GetComponent<Button>().onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
+        }
+
+            // sets the scrolling level selection to be at the beginning (there is very likely a better way to do this)
+            levelButtonContainer.GetComponent<RectTransform>().localPosition = new Vector2(-levelButtonContainer.GetComponent<RectTransform>().localPosition.x, 0);
+        // sets the scrolling shop selection to be at the beginning (there is very likely a better way to do this)
 
         //reinstantiate the timescale to 1
         Time.timeScale = 1;
