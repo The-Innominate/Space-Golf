@@ -8,6 +8,9 @@ public class MainMenuScript : MonoBehaviour
     public GameObject levelButtonPrefab;
     public GameObject levelButtonContainer;
 
+    public GameObject shopButton;
+    public GameObject shopButtonContainer;
+
     private Transform cameraTransform;
     private Transform cameraDesiredLookAt;
 
