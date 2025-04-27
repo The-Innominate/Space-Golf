@@ -29,6 +29,7 @@ public class PlayerScript : MonoBehaviour
 	LineRenderer lr;
 	Collider2D col;
 	AudioSource sound;
+	private SpriteRenderer sr;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
 	{
@@ -36,9 +37,33 @@ public class PlayerScript : MonoBehaviour
 		lr = GetComponent<LineRenderer>();
 		col = rb.GetComponent<Collider2D>();
 		sound = rb.GetComponent<AudioSource>();
+		sr = GetComponent<SpriteRenderer>();
 		lr.enabled = false;
 		LastShotPosition = transform.position;
-	}
+
+        // This controls the player skin prefs and cuts off the last 3 chars of the color name: 'GolfRed_01' -> 'GolfRed'
+        string selectedSkin = PlayerPrefs.GetString("SelectedBallSkin", "golf_0"); // "default" fallback
+		Sprite skinSprite = null;
+
+        if (selectedSkin.Length > 3)
+        {
+            string baseName = selectedSkin.Substring(0, selectedSkin.Length - 2);
+            skinSprite = Resources.Load<Sprite>("GolfBall/" + baseName);
+        }
+        else
+        {
+            Debug.LogWarning("Selected skin name is too short to trim: " + selectedSkin);
+        }
+
+        if (skinSprite != null)
+        {
+            sr.sprite = skinSprite;
+        }
+        else
+        {
+            Debug.LogWarning("Could not load sprite for: " + selectedSkin);
+        }
+    }
 
 	// Update is called once per frame
 	void Update()
