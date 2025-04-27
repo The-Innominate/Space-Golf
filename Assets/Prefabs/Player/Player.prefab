@@ -674,5 +674,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuOverlay: {fileID: 0}
-  nextLevelToLoad: {fileID: 102900000, guid: dd6e706e049a06545936dbe704e46ab5, type: 3}
+  nextLevelToLoad: 
   WinFX: {fileID: 8300000, guid: ab3f53aa2d5e6b547b1e40507c9d5003, type: 3}
+  CourseName: Begin

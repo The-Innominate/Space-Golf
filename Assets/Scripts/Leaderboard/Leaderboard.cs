@@ -57,12 +57,20 @@ public class Leaderboard : MonoBehaviour
 
 	public void OnLeaderboardEnter()
 	{
-		Dictionary<string, int> data = LevelHighScores.Instance.LoadAllScores();
+		Dictionary<string, Dictionary<string, int>> data = LevelHighScores.Instance.LoadAllScores();
+
+		if (data == null)
+		{
+			Debug.Log("No data found.");
+			return;
+		}
+
+		data.TryGetValue("Begin", out Dictionary<string, int> courseData);
 
 		int totalScore = 0;
 		int levelCount = 0;
 
-		foreach (KeyValuePair<string, int> kvp in data)
+		foreach (KeyValuePair<string, int> kvp in courseData)
 		{
 			totalScore += kvp.Value;
 			levelCount++;

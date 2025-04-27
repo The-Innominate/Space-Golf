@@ -9,6 +9,8 @@ public class PlayerWinCheck : MonoBehaviour
     public AudioClip WinFX;
     private AudioSource winFXSource;
 
+    [SerializeField] private string CourseName;
+
 	private void Start()
 	{
         winFXSource = gameObject.AddComponent<AudioSource>();
@@ -34,7 +36,7 @@ public class PlayerWinCheck : MonoBehaviour
 				//get the score from the player script
 				int score = GetComponent<PlayerScript>().getStrokes();
 				//save the score to the json file
-                LevelHighScores.Instance.SaveToJson(levelName, score);
+                LevelHighScores.Instance.SaveToJson(CourseName, levelName, score);
 
 				//sets the timescale to 0, so the game stops
 				Time.timeScale = 0;

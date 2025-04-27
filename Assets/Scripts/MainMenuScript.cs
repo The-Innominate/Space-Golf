@@ -47,7 +47,7 @@ public class MainMenuScript : MonoBehaviour
             container.GetComponent<Button>().onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
 
             // this is the score for the level
-            int HighScore = LevelHighScores.Instance.LoadFromJson(sceneName);
+            int HighScore = LevelHighScores.Instance.LoadFromJson("Begin", sceneName);
             if (HighScore <= 0)
             {
                 container.GetComponentInChildren<TextMeshProUGUI>().text = "No Score";
