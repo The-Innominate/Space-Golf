@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      golfRed_0: -4656700714186135399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

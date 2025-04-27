@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      golfPurple_0: 7607959069035039043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
