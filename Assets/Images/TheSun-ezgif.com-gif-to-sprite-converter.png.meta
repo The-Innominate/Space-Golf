@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: dd015c40a16979c4e86210c1bd7394c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 188033020921876126
+    second: TheSun-ezgif.com-gif-to-sprite-converter_0
+  - first:
+      213: 1185597506500572693
+    second: TheSun-ezgif.com-gif-to-sprite-converter_1
+  - first:
+      213: -2615403469553780960
+    second: TheSun-ezgif.com-gif-to-sprite-converter_2
+  - first:
+      213: 6094943348194551473
+    second: TheSun-ezgif.com-gif-to-sprite-converter_3
+  - first:
+      213: -4632469357136490376
+    second: TheSun-ezgif.com-gif-to-sprite-converter_4
+  - first:
+      213: -3935113888638566893
+    second: TheSun-ezgif.com-gif-to-sprite-converter_5
+  - first:
+      213: -6603857839840594329
+    second: TheSun-ezgif.com-gif-to-sprite-converter_6
+  - first:
+      213: 6114146905469255949
+    second: TheSun-ezgif.com-gif-to-sprite-converter_7
+  - first:
+      213: 7400917810415916357
+    second: TheSun-ezgif.com-gif-to-sprite-converter_8
+  - first:
+      213: -8454519766138744783
+    second: TheSun-ezgif.com-gif-to-sprite-converter_9
+  - first:
+      213: 301024562076042892
+    second: TheSun-ezgif.com-gif-to-sprite-converter_10
+  - first:
+      213: -2179352887111609682
+    second: TheSun-ezgif.com-gif-to-sprite-converter_11
+  - first:
+      213: 397267397680344859
+    second: TheSun-ezgif.com-gif-to-sprite-converter_12
+  - first:
+      213: 7439442067716702881
+    second: TheSun-ezgif.com-gif-to-sprite-converter_13
+  - first:
+      213: 3430814684216479359
+    second: TheSun-ezgif.com-gif-to-sprite-converter_14
+  - first:
+      213: -7730090565004613991
+    second: TheSun-ezgif.com-gif-to-sprite-converter_15
+  - first:
+      213: -4508645420964078152
+    second: TheSun-ezgif.com-gif-to-sprite-converter_16
+  - first:
+      213: 6808205779107601921
+    second: TheSun-ezgif.com-gif-to-sprite-converter_17
+  - first:
+      213: -6298184858683693716
+    second: TheSun-ezgif.com-gif-to-sprite-converter_18
+  - first:
+      213: 4919739503187790655
+    second: TheSun-ezgif.com-gif-to-sprite-converter_19
+  - first:
+      213: -4881566877610009538
+    second: TheSun-ezgif.com-gif-to-sprite-converter_20
+  - first:
+      213: -6287165842251773593
+    second: TheSun-ezgif.com-gif-to-sprite-converter_21
+  - first:
+      213: -1601972899390828458
+    second: TheSun-ezgif.com-gif-to-sprite-converter_22
+  - first:
+      213: -5483938975839287720
+    second: TheSun-ezgif.com-gif-to-sprite-converter_23
+  - first:
+      213: -4778724592232221448
+    second: TheSun-ezgif.com-gif-to-sprite-converter_24
+  - first:
+      213: 5788070671830878404
+    second: TheSun-ezgif.com-gif-to-sprite-converter_25
+  - first:
+      213: 7614741809009666665
+    second: TheSun-ezgif.com-gif-to-sprite-converter_26
+  - first:
+      213: 2634867676179863148
+    second: TheSun-ezgif.com-gif-to-sprite-converter_27
+  - first:
+      213: 7154159737658551051
+    second: TheSun-ezgif.com-gif-to-sprite-converter_28
+  - first:
+      213: 2572446584181720723
+    second: TheSun-ezgif.com-gif-to-sprite-converter_29
+  - first:
+      213: 7225649703407046084
+    second: TheSun-ezgif.com-gif-to-sprite-converter_30
+  - first:
+      213: 6844772435335495109
+    second: TheSun-ezgif.com-gif-to-sprite-converter_31
+  - first:
+      213: -5362986041936476424
+    second: TheSun-ezgif.com-gif-to-sprite-converter_32
+  - first:
+      213: 4187727506110691065
+    second: TheSun-ezgif.com-gif-to-sprite-converter_33
+  - first:
+      213: 698287835947913725
+    second: TheSun-ezgif.com-gif-to-sprite-converter_34
+  - first:
+      213: -7825448090047926094
+    second: TheSun-ezgif.com-gif-to-sprite-converter_35
+  - first:
+      213: 6838242591759007284
+    second: TheSun-ezgif.com-gif-to-sprite-converter_36
+  - first:
+      213: 7375846193053272335
+    second: TheSun-ezgif.com-gif-to-sprite-converter_37
+  - first:
+      213: 3543616164341989139
+    second: TheSun-ezgif.com-gif-to-sprite-converter_38
+  - first:
+      213: 3741664381884529494
+    second: TheSun-ezgif.com-gif-to-sprite-converter_39
+  - first:
+      213: 8257777170004944516
+    second: TheSun-ezgif.com-gif-to-sprite-converter_40
+  - first:
+      213: 4599891172750690365
+    second: TheSun-ezgif.com-gif-to-sprite-converter_41
+  - first:
+      213: -6890891894291382810
+    second: TheSun-ezgif.com-gif-to-sprite-converter_42
+  - first:
+      213: 239401631104337314
+    second: TheSun-ezgif.com-gif-to-sprite-converter_43
+  - first:
+      213: 6313609674965016722
+    second: TheSun-ezgif.com-gif-to-sprite-converter_44
+  - first:
+      213: 2373522901117282437
+    second: TheSun-ezgif.com-gif-to-sprite-converter_45
+  - first:
+      213: -1957446099637122146
+    second: TheSun-ezgif.com-gif-to-sprite-converter_46
+  - first:
+      213: 5707138171043970310
+    second: TheSun-ezgif.com-gif-to-sprite-converter_47
+  - first:
+      213: 7916694838590417473
+    second: TheSun-ezgif.com-gif-to-sprite-converter_48
+  - first:
+      213: -6159950461228110321
+    second: TheSun-ezgif.com-gif-to-sprite-converter_49
+  - first:
+      213: 518460791462616487
+    second: TheSun-ezgif.com-gif-to-sprite-converter_50
+  - first:
+      213: 3414749127694703057
+    second: TheSun-ezgif.com-gif-to-sprite-converter_51
+  - first:
+      213: 7464364974224447550
+    second: TheSun-ezgif.com-gif-to-sprite-converter_52
+  - first:
+      213: 2831429676586645952
+    second: TheSun-ezgif.com-gif-to-sprite-converter_53
+  - first:
+      213: -3850299301246594561
+    second: TheSun-ezgif.com-gif-to-sprite-converter_54
+  - first:
+      213: 1358244331047978971
+    second: TheSun-ezgif.com-gif-to-sprite-converter_55
+  - first:
+      213: 7387294570249193950
+    second: TheSun-ezgif.com-gif-to-sprite-converter_56
+  - first:
+      213: 4627251993143267378
+    second: TheSun-ezgif.com-gif-to-sprite-converter_57
+  - first:
+      213: 4980560753309509841
+    second: TheSun-ezgif.com-gif-to-sprite-converter_58
+  - first:
+      213: 7630563805355894637
+    second: TheSun-ezgif.com-gif-to-sprite-converter_59
+  - first:
+      213: -2242388689653593671
+    second: TheSun-ezgif.com-gif-to-sprite-converter_60
+  - first:
+      213: -8613020612903914963
+    second: TheSun-ezgif.com-gif-to-sprite-converter_61
+  - first:
+      213: -2545627383113733138
+    second: TheSun-ezgif.com-gif-to-sprite-converter_62
+  - first:
+      213: -5360384235001696467
+    second: TheSun-ezgif.com-gif-to-sprite-converter_63
+  - first:
+      213: 8489721134827627236
+    second: TheSun-ezgif.com-gif-to-sprite-converter_64
+  - first:
+      213: -8710995197361482598
+    second: TheSun-ezgif.com-gif-to-sprite-converter_65
+  - first:
+      213: -7888313156914849043
+    second: TheSun-ezgif.com-gif-to-sprite-converter_66
+  - first:
+      213: 1344108856064463175
+    second: TheSun-ezgif.com-gif-to-sprite-converter_67
+  - first:
+      213: -2127071426766923491
+    second: TheSun-ezgif.com-gif-to-sprite-converter_68
+  - first:
+      213: -8006101063569193148
+    second: TheSun-ezgif.com-gif-to-sprite-converter_69
+  - first:
+      213: -1781689070823876251
+    second: TheSun-ezgif.com-gif-to-sprite-converter_70
+  - first:
+      213: -4456762198856999042
+    second: TheSun-ezgif.com-gif-to-sprite-converter_71
+  - first:
+      213: -3467411767499194776
+    second: TheSun-ezgif.com-gif-to-sprite-converter_72
+  - first:
+      213: -7527128364862308929
+    second: TheSun-ezgif.com-gif-to-sprite-converter_73
+  - first:
+      213: 8099571820410924709
+    second: TheSun-ezgif.com-gif-to-sprite-converter_74
+  - first:
+      213: 6508487297221153357
+    second: TheSun-ezgif.com-gif-to-sprite-converter_75
+  - first:
+      213: 9038447496193030671
+    second: TheSun-ezgif.com-gif-to-sprite-converter_76
+  - first:
+      213: 3424696739771090278
+    second: TheSun-ezgif.com-gif-to-sprite-converter_77
+  - first:
+      213: 1470430826242882157
+    second: TheSun-ezgif.com-gif-to-sprite-converter_78
+  - first:
+      213: 4963830162301566232
+    second: TheSun-ezgif.com-gif-to-sprite-converter_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510c237fb76c3d7429abf5f719b7e7de
+      internalID: -1875354591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2ff09a0f2ead544842e64847e810af
+      internalID: 2069141184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d96a18f2f03a7b43a72b5f256ba754c
+      internalID: -1214840676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9196eee9b195c5c4ba04762fce069daf
+      internalID: 227244389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a0fe64770239749a19b7a493fcef28
+      internalID: -631478095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093f0adccfb15f844abf56f981fc7b52
+      internalID: -440966624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0099b233ccfcb6047a68583bf0da4d56
+      internalID: -15896528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d1295e999a66e478c287b0fbab7ffa
+      internalID: 1691966129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3840
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e732ac071e85d7448ea3c59ea1a4dd0
+      internalID: 279055597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59befd182e8307e4cb7918ff336c6ec4
+      internalID: 1317022940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21c6f2be213bb42923ac55e8679308
+      internalID: -322980652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6bde0ac46504642abed89699da13aa
+      internalID: 495308999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f5c14b8e9941e43b5878732cdeae51
+      internalID: -860726392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e100de94ef9df84ebf2862bff06c99f
+      internalID: 1569407052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43de70d6fd7ef0a49ada83a23f048744
+      internalID: 1242437613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_15
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961ed3f9e7c001f489ad3e21e762e6d4
+      internalID: 668916661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_16
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e377d146e38759345a3e8279900e9c9a
+      internalID: -938113424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_17
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3360
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c718e05d7212a9348a181a80633b6517
+      internalID: -558908115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac9aa7a3a3753e4480d5c0253ca8484
+      internalID: 46702363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a37bca1c4eb5d44d853428add151f8c
+      internalID: 6726227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c45abc42940dd04193a5e5f0ce1a7b4
+      internalID: 1712075327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_21
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d8c124485f2044a90c3c18976bf5da
+      internalID: 1048383774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_22
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20f8e13d571b304594a6e569ac7ae6e
+      internalID: 90020218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_23
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e462e1b264da46a88e2d3834b527e
+      internalID: -1248848516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad05d59f67eef0a40909cd041d3c0194
+      internalID: 187139173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_25
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6545fa9b58995b0418359b01f6de6731
+      internalID: 1402500073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_26
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2880
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd707424c6369145a13e64f255ef247
+      internalID: -347557383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f0a5cdb7fa6f4697e7b67e7ba92fc
+      internalID: -1928279088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c197024bd1ea3464db4da41ef67a5d47
+      internalID: 1807725807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdc56691c1eb104da5cb3bd4c492e3e
+      internalID: -1521263796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_30
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4084cdf3eab8ca44b91472ffd3b0efd8
+      internalID: -55694328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8dd38fca4dda43b68e93fb3ddafbf
+      internalID: 831144238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335532b6cda94e444a9341cc6d19984f
+      internalID: 742270777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_33
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e08bfe0678c8347acf1de72376f9ce
+      internalID: -1064694420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_34
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72c293d65a59ee4785c83b9cde9a8b4
+      internalID: 1268748968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_35
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2400
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ee563efc6a514d8279a067ff7415a
+      internalID: -1033680921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cfeec7ce2c8cc459dce083b04ed5fa
+      internalID: 1616299373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f04efe5c9ca3f4f8757232eb2c4901
+      internalID: 1046749229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd39b7e20ea98de4ba916f1465eb6a9e
+      internalID: -1987201574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_39
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd2551d1b391054cb0272a410c2f346
+      internalID: -905810449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_40
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac497f6a8a5f11409441a381089ed85
+      internalID: 281932654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_41
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68b134739fc2f04993565bbb685d6dd
+      internalID: 1204938532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_42
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c6da2efbfccad479f1f700833cf39d
+      internalID: -1752754228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_43
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a847945c0a0220045885f0f0291b037d
+      internalID: 1102416033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_44
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1cc97653cbbcb48b6d7fdaa2de1641
+      internalID: -1929997169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794add200509cc84ca2161f29ef623ba
+      internalID: -1957591906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936fe72746128f44c8fbca8ca1facd16
+      internalID: 948123543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6dd0f4695691949a6a7ea8dfc82cad
+      internalID: -1633179779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_48
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e35388cbf90a6479af690d6ec29f27
+      internalID: 1343857107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c620b29c44e54cc4aa83b9d889566007
+      internalID: 1549903954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_50
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088fdf1d1d9a03489c19942c8d49dac
+      internalID: -89032082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_51
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6f57c98a7c72f448592815bd999ace
+      internalID: -963949419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_52
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb8fd2196e52354890976e6c214de2a
+      internalID: 692603281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_53
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d3b74ef0e56084e9aeb3877556167c
+      internalID: 819619050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b94fdde83af0c41bd9a99349dfa1ea
+      internalID: -948525644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96521a3ae9241e49bab4d4eae9d5b78
+      internalID: -918673785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_56
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cfaff31e74b264489a16f930e796a0
+      internalID: 1809012973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_57
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e346e116c79440bf727b4d20f57ae
+      internalID: -1694262013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_58
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb191560291c2a2468c3887dd112a4e8
+      internalID: 1000971486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_59
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6991baa49353f4d9a17cabae852287
+      internalID: -2038710412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_60
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c546c9f371f1b4a875b5ba23b0e89a
+      internalID: -335988401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_61
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8c6043139af094fb03d74af944bf4c
+      internalID: -1645892670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_62
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e579a7a75c2111e4283b6bfbf64cea24
+      internalID: -1181890034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89a35bf7df328846baf2b6cb9b8faa6
+      internalID: -423900179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_64
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4344c1befcdcb34792b913215016152
+      internalID: -679068658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_65
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ae16ade554bdb4ba8060454a0f8b4c
+      internalID: -288040952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_66
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b02a73a026bef47b2b55914e551a9a
+      internalID: -255817580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_67
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51a229c149ce04419cc0420a5646a07
+      internalID: -1971639067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_68
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007d4880543175341863a2e3e869b28a
+      internalID: -1417092850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_69
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02e61177a7be946977b9e6f924fd33
+      internalID: 384109309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_70
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f919f3e65714956428b17c388c219cea
+      internalID: 1670416372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_71
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c896302873b52459bf1eba515b4beb
+      internalID: 516489634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4873960e9bc535f48a26d0db7bf89e68
+      internalID: -236528966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_73
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70630402a8f94d74d9081d47edfa0f1d
+      internalID: -2142345250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_74
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554c47aac28a32b43b2368722c7e2778
+      internalID: -734603232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_75
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3802d75c06e663b4a8226303dd5a05ed
+      internalID: -1240421376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_76
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c487773bb519b4aa43cfeb42590d4d
+      internalID: 1322245651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_77
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567fef80cb1a62e489ff506684f0ea93
+      internalID: 319936549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_78
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40613dc040d9e6f40a9d68b74e94e16a
+      internalID: -496727692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheSun-ezgif.com-gif-to-sprite-converter_79
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2d831daabc3b84fa9b7b4e5dc89484
+      internalID: 77074500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0aba7b2e35f374d47adcfcef6b0c5c30
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TheSun-ezgif.com-gif-to-sprite-converter_0: -1875354591
+      TheSun-ezgif.com-gif-to-sprite-converter_1: 2069141184
+      TheSun-ezgif.com-gif-to-sprite-converter_10: -322980652
+      TheSun-ezgif.com-gif-to-sprite-converter_11: 495308999
+      TheSun-ezgif.com-gif-to-sprite-converter_12: -860726392
+      TheSun-ezgif.com-gif-to-sprite-converter_13: 1569407052
+      TheSun-ezgif.com-gif-to-sprite-converter_14: 1242437613
+      TheSun-ezgif.com-gif-to-sprite-converter_15: 668916661
+      TheSun-ezgif.com-gif-to-sprite-converter_16: -938113424
+      TheSun-ezgif.com-gif-to-sprite-converter_17: -558908115
+      TheSun-ezgif.com-gif-to-sprite-converter_18: 46702363
+      TheSun-ezgif.com-gif-to-sprite-converter_19: 6726227
+      TheSun-ezgif.com-gif-to-sprite-converter_2: -1214840676
+      TheSun-ezgif.com-gif-to-sprite-converter_20: 1712075327
+      TheSun-ezgif.com-gif-to-sprite-converter_21: 1048383774
+      TheSun-ezgif.com-gif-to-sprite-converter_22: 90020218
+      TheSun-ezgif.com-gif-to-sprite-converter_23: -1248848516
+      TheSun-ezgif.com-gif-to-sprite-converter_24: 187139173
+      TheSun-ezgif.com-gif-to-sprite-converter_25: 1402500073
+      TheSun-ezgif.com-gif-to-sprite-converter_26: -347557383
+      TheSun-ezgif.com-gif-to-sprite-converter_27: -1928279088
+      TheSun-ezgif.com-gif-to-sprite-converter_28: 1807725807
+      TheSun-ezgif.com-gif-to-sprite-converter_29: -1521263796
+      TheSun-ezgif.com-gif-to-sprite-converter_3: 227244389
+      TheSun-ezgif.com-gif-to-sprite-converter_30: -55694328
+      TheSun-ezgif.com-gif-to-sprite-converter_31: 831144238
+      TheSun-ezgif.com-gif-to-sprite-converter_32: 742270777
+      TheSun-ezgif.com-gif-to-sprite-converter_33: -1064694420
+      TheSun-ezgif.com-gif-to-sprite-converter_34: 1268748968
+      TheSun-ezgif.com-gif-to-sprite-converter_35: -1033680921
+      TheSun-ezgif.com-gif-to-sprite-converter_36: 1616299373
+      TheSun-ezgif.com-gif-to-sprite-converter_37: 1046749229
+      TheSun-ezgif.com-gif-to-sprite-converter_38: -1987201574
+      TheSun-ezgif.com-gif-to-sprite-converter_39: -905810449
+      TheSun-ezgif.com-gif-to-sprite-converter_4: -631478095
+      TheSun-ezgif.com-gif-to-sprite-converter_40: 281932654
+      TheSun-ezgif.com-gif-to-sprite-converter_41: 1204938532
+      TheSun-ezgif.com-gif-to-sprite-converter_42: -1752754228
+      TheSun-ezgif.com-gif-to-sprite-converter_43: 1102416033
+      TheSun-ezgif.com-gif-to-sprite-converter_44: -1929997169
+      TheSun-ezgif.com-gif-to-sprite-converter_45: -1957591906
+      TheSun-ezgif.com-gif-to-sprite-converter_46: 948123543
+      TheSun-ezgif.com-gif-to-sprite-converter_47: -1633179779
+      TheSun-ezgif.com-gif-to-sprite-converter_48: 1343857107
+      TheSun-ezgif.com-gif-to-sprite-converter_49: 1549903954
+      TheSun-ezgif.com-gif-to-sprite-converter_5: -440966624
+      TheSun-ezgif.com-gif-to-sprite-converter_50: -89032082
+      TheSun-ezgif.com-gif-to-sprite-converter_51: -963949419
+      TheSun-ezgif.com-gif-to-sprite-converter_52: 692603281
+      TheSun-ezgif.com-gif-to-sprite-converter_53: 819619050
+      TheSun-ezgif.com-gif-to-sprite-converter_54: -948525644
+      TheSun-ezgif.com-gif-to-sprite-converter_55: -918673785
+      TheSun-ezgif.com-gif-to-sprite-converter_56: 1809012973
+      TheSun-ezgif.com-gif-to-sprite-converter_57: -1694262013
+      TheSun-ezgif.com-gif-to-sprite-converter_58: 1000971486
+      TheSun-ezgif.com-gif-to-sprite-converter_59: -2038710412
+      TheSun-ezgif.com-gif-to-sprite-converter_6: -15896528
+      TheSun-ezgif.com-gif-to-sprite-converter_60: -335988401
+      TheSun-ezgif.com-gif-to-sprite-converter_61: -1645892670
+      TheSun-ezgif.com-gif-to-sprite-converter_62: -1181890034
+      TheSun-ezgif.com-gif-to-sprite-converter_63: -423900179
+      TheSun-ezgif.com-gif-to-sprite-converter_64: -679068658
+      TheSun-ezgif.com-gif-to-sprite-converter_65: -288040952
+      TheSun-ezgif.com-gif-to-sprite-converter_66: -255817580
+      TheSun-ezgif.com-gif-to-sprite-converter_67: -1971639067
+      TheSun-ezgif.com-gif-to-sprite-converter_68: -1417092850
+      TheSun-ezgif.com-gif-to-sprite-converter_69: 384109309
+      TheSun-ezgif.com-gif-to-sprite-converter_7: 1691966129
+      TheSun-ezgif.com-gif-to-sprite-converter_70: 1670416372
+      TheSun-ezgif.com-gif-to-sprite-converter_71: 516489634
+      TheSun-ezgif.com-gif-to-sprite-converter_72: -236528966
+      TheSun-ezgif.com-gif-to-sprite-converter_73: -2142345250
+      TheSun-ezgif.com-gif-to-sprite-converter_74: -734603232
+      TheSun-ezgif.com-gif-to-sprite-converter_75: -1240421376
+      TheSun-ezgif.com-gif-to-sprite-converter_76: 1322245651
+      TheSun-ezgif.com-gif-to-sprite-converter_77: 319936549
+      TheSun-ezgif.com-gif-to-sprite-converter_78: -496727692
+      TheSun-ezgif.com-gif-to-sprite-converter_79: 77074500
+      TheSun-ezgif.com-gif-to-sprite-converter_8: 279055597
+      TheSun-ezgif.com-gif-to-sprite-converter_9: 1317022940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
