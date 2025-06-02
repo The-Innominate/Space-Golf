@@ -42,7 +42,7 @@ public class Leaderboard : MonoBehaviour
 	{
 		LeaderboardCreator.UploadNewEntry(publicKey, unsername, score, (result) =>
 		{
-			if (result != null)
+			if (result)
 			{
 				Debug.Log("Leaderboard entry set successfully.");
 			}

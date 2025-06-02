@@ -77,7 +77,21 @@ public class MainMenuScript : MonoBehaviour
             shopContainer.GetComponent<Button>().onClick.AddListener(() =>
             {
                 PlayerPrefs.SetString("SelectedBallSkin", selectedName);
-                PlayerPrefs.Save();
+
+				if (texture != null)
+				{
+					Color pixelColor = texture.texture.GetPixel(32,32);
+					Debug.Log("Color at (" + 32 + ", " + 32 + "): " + pixelColor);
+                    PlayerPrefs.SetFloat("SelectedBallSkinR", pixelColor.r);
+                    PlayerPrefs.SetFloat("SelectedBallSkinG", pixelColor.g);
+                    PlayerPrefs.SetFloat("SelectedBallSkinB", pixelColor.b);
+				}
+				else
+				{
+					Debug.LogError("Texture is null for sprite");
+				}
+
+				PlayerPrefs.Save();
                 Debug.Log("Selected ball skin: " + selectedName);
             });
         }
