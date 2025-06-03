@@ -10,12 +10,20 @@ public class GetCourseTotal : MonoBehaviour
 	{
 		TextMeshProUGUI text = GetComponent<TextMeshProUGUI>();
 
-		Dictionary<string, int> data = LevelHighScores.Instance.LoadAllScores();
+		Dictionary<string, Dictionary<string, int>> data = LevelHighScores.Instance.LoadAllScores();
+
+		data.TryGetValue("Begin", out Dictionary<string, int> courseData);
 
 		int totalScore = 0;
 		int levelCount = 0;
 
-		foreach (KeyValuePair<string, int> kvp in data)
+		if (courseData == null)
+		{
+			text.text = "Course Total: 0 (Not Yet Done)";
+			return;
+		}
+
+		foreach (KeyValuePair<string, int> kvp in courseData)
 		{
 			totalScore += kvp.Value;
 			levelCount++;

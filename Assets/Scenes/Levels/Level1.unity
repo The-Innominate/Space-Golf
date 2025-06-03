@@ -332,6 +332,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
+      propertyPath: CourseName
+      value: Begin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785055948431093029, guid: c45fba0d67f44a94d86de88e24bd220d, type: 3}
       propertyPath: nextLevelToLoad
       value: Level2
       objectReference: {fileID: 0}

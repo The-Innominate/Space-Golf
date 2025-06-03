@@ -32,22 +32,29 @@ public sealed class LevelHighScores
 
 	private string filePath = Application.persistentDataPath + "/levelHighScores.json";
 
-	public void SaveToJson(string levelName, int score)
+	public void SaveToJson(string course, string levelName, int score)
 	{
 		var data = LoadAllScores();
+		if (data == null)
+		{
+			data = new Dictionary<string, Dictionary<string, int>>();
+		}
+
+		if (!data.ContainsKey(course))
+		{
+			data[course] = new Dictionary<string, int>();
+		}
+
+		if (!data[course].ContainsKey(levelName))
+		{
+			data[course][levelName] = 0;
+		}
 
 		int existingScore;
-		existingScore = data.TryGetValue(levelName, out existingScore) ? existingScore : 0;
-		if (existingScore == 0)
+		existingScore = data[course][levelName];
+		if (existingScore > score || existingScore == 0)
 		{
-			data.Add(levelName, score);
-			string json = JsonConvert.SerializeObject(data, Formatting.Indented);
-			File.WriteAllText(filePath, json);
-			Debug.Log(filePath);
-		}
-		else if (existingScore > score)
-		{
-			data[levelName] = score;
+			data[course][levelName] = score;
 			string json = JsonConvert.SerializeObject(data, Formatting.Indented);
 			File.WriteAllText(filePath, json);
 			Debug.Log(filePath);
@@ -59,19 +66,25 @@ public sealed class LevelHighScores
 		}
 	}
 
-	public Dictionary<string, int> LoadAllScores()
+	public Dictionary<string, Dictionary<string, int>> LoadAllScores()
 	{
 		if (!File.Exists(filePath))
-			return new Dictionary<string, int>();
+			return new Dictionary<string, Dictionary<string, int>>();
 
 		string json = File.ReadAllText(filePath);
-		return JsonConvert.DeserializeObject<Dictionary<string, int>>(json) ?? new Dictionary<string, int>();
+		Dictionary<string, Dictionary<string, int>> data = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, int>>>(json);
+		if (data == null) data = new Dictionary<string, Dictionary<string, int>>();
+		return data;
 	}
 
-	public int LoadFromJson(string levelName)
+	public int LoadFromJson(string course, string levelName)
 	{
 		var data = LoadAllScores();
-		return data.TryGetValue(levelName, out int score) ? score : 0;
+		if (!data.ContainsKey(course))
+			return 0;
+		if (!data[course].ContainsKey(levelName))
+			return 0;
+		return data[course][levelName];
 	}
 
 	//public void SaveToJson(string levelName, int Score)
