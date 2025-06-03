@@ -1,45 +1,87 @@
 using UnityEngine;
-using System.Collections;
 
 public class BasicTeleporter : Teleporter
 {
-    private GameObject connectedTeleporter; // Teleporter to send player to
-    private bool canTeleport = true;        // Prevents teleport spam
-    private float cooldownTime = 0.5f;      // Half-second cooldown
-
-    public override void Initialize(GameObject connectedTeleporter)
+    public override void Initialize()
     {
-        this.connectedTeleporter = connectedTeleporter; // Set destination teleporter
+        Debug.Log("BasicTeleporter initialized");
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("Player entered teleporter");
+        }
+    }
+}
+
+
+
+
+/*using UnityEngine;
+
+public class TeleporterScript : MonoBehaviour
+{
+    [SerializeField] private GameObject ConnectedTeleporter1;
+    [SerializeField] private GameObject ConnectedTeleporter2;
+    [SerializeField, Min(1)] private int teleporterID;
+
+    private bool canTeleport = true;
+    private float cooldownTime = 0.5f; // half-second cooldown to avoid loop
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!canTeleport) return;
 
-        if (collision.CompareTag("Player") && connectedTeleporter != null)
+        if (collision.CompareTag("Player"))
         {
-            StartCoroutine(TeleportWithCooldown(collision.gameObject));
+            Transform destination = GetDestination(teleporterID);
+            if (destination != null)
+            {
+                // Start cooldown on both teleporters
+                StartCoroutine(TeleportWithCooldown(collision.gameObject, destination));
+            }
         }
     }
 
-    private IEnumerator TeleportWithCooldown(GameObject player)
+    private System.Collections.IEnumerator TeleportWithCooldown(GameObject player, Transform destination)
     {
+        // Prevent re-entry during teleport
         canTeleport = false;
 
-        // Move player to connected teleporter's position
-        player.transform.position = connectedTeleporter.transform.position;
+        // Move the player
+        player.transform.position = destination.position;
 
-        // Disable teleport on connected teleporter to avoid loop
-        var connectedScript = connectedTeleporter.GetComponent<BasicTeleporter>();
-        if (connectedScript != null)
+        // Find the destination's script and disable teleport briefly there too
+        TeleporterScript destScript = destination.GetComponent<TeleporterScript>();
+        if (destScript != null)
         {
-            connectedScript.canTeleport = false;
+            destScript.canTeleport = false;
             yield return new WaitForSeconds(cooldownTime);
-            connectedScript.canTeleport = true;
+            destScript.canTeleport = true;
         }
 
-        // Re-enable this teleporter after cooldown
+        // Re-enable this portal too
         yield return new WaitForSeconds(cooldownTime);
         canTeleport = true;
     }
-}
+
+    private void OnValidate()
+    {
+        teleporterID = Mathf.Clamp(teleporterID, 1, 2);
+    }
+
+    private Transform GetDestination(int telePosition)
+    {
+        switch (telePosition)
+        {
+            case 1:
+                return ConnectedTeleporter1?.transform;
+            case 2:
+                return ConnectedTeleporter2?.transform;
+            default:
+                return null;
+        }
+    }
+}*/

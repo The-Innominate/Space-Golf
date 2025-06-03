@@ -2,11 +2,10 @@ using UnityEngine;
 
 public static class TeleporterFactory
 {
-    public static Teleporter CreateBasicTeleporter(GameObject teleporterObject, GameObject connectedTeleporter)
+    public static Teleporter CreateBasicTeleporter(GameObject teleporterObject)
     {
         var teleporter = teleporterObject.AddComponent<BasicTeleporter>();
-        teleporter.Initialize(connectedTeleporter);
+        teleporter.Initialize();
         return teleporter;
     }
-
 }
