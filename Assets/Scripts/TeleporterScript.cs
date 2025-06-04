@@ -1,27 +1,6 @@
 using System.Collections;
 using UnityEngine;
 
-public class BasicTeleporter : Teleporter
-{
-    public override void Initialize()
-    {
-        Debug.Log("BasicTeleporter initialized");
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            Debug.Log("Player entered teleporter");
-        }
-    }
-}
-
-
-
-
-/*using UnityEngine;
-
 public class TeleporterScript : MonoBehaviour
 {
     [SerializeField] private GameObject ConnectedTeleporter1;
@@ -94,4 +73,4 @@ public class TeleporterScript : MonoBehaviour
                 return null;
         }
     }
-}*/
+}
