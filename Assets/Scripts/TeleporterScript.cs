@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class TeleporterScript : MonoBehaviour
@@ -20,20 +21,29 @@ public class TeleporterScript : MonoBehaviour
             {
                 // Start cooldown on both teleporters
                 StartCoroutine(TeleportWithCooldown(collision.gameObject, destination));
-            }
+			}
         }
     }
 
-    private System.Collections.IEnumerator TeleportWithCooldown(GameObject player, Transform destination)
+	private IEnumerator TeleportWithCooldown(GameObject player, Transform destination)
     {
         // Prevent re-entry during teleport
         canTeleport = false;
 
-        // Move the player
-        player.transform.position = destination.position;
+		TrailRenderer trail = player.GetComponentInChildren<TrailRenderer>();
 
-        // Find the destination's script and disable teleport briefly there too
-        TeleporterScript destScript = destination.GetComponent<TeleporterScript>();
+        if (trail != null)
+        {
+            trail.enabled = false;
+            trail.Clear();
+        }
+		// Move the player
+		player.transform.position = destination.position;
+
+		if (trail != null) trail.enabled = true;
+
+		// Find the destination's script and disable teleport briefly there too
+		TeleporterScript destScript = destination.GetComponent<TeleporterScript>();
         if (destScript != null)
         {
             destScript.canTeleport = false;

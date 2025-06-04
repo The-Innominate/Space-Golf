@@ -222,7 +222,7 @@ public class PlayerScript : MonoBehaviour
 			Touch touch = Input.GetTouch(0);
 
 			arrow.stemLength = (Vector3.Distance(transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0)))) / 5) * 4;
-			arrow.stemWidth = arrow.stemLength / 15;
+			arrow.stemWidth = arrow.stemLength / 30;
 			arrow.tipLength = arrow.stemLength / 4;
 			arrow.tipWidth = arrow.stemWidth * 2;
 
@@ -235,7 +235,7 @@ public class PlayerScript : MonoBehaviour
 		else if (MouseDragging)
 		{
 			arrow.stemLength = (Vector3.Distance(transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0)))) / 5) * 4;
-			arrow.stemWidth = arrow.stemLength / 15;
+			arrow.stemWidth = arrow.stemLength / 30;
 			arrow.tipLength = arrow.stemLength / 4;
 			arrow.tipWidth = arrow.stemWidth * 2;
 
@@ -251,6 +251,8 @@ public class PlayerScript : MonoBehaviour
 			arrow.stemWidth = 0;
 			arrow.tipLength = arrow.stemLength;
 			arrow.tipWidth = arrow.stemWidth;
+
+			print("Nothing");
 		}
 	}
 }
