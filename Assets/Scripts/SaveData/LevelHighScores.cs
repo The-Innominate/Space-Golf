@@ -113,31 +113,42 @@ public sealed class LevelHighScores
 		using (Aes aes = Aes.Create())
 		{
 			aes.Key = Encoding.UTF8.GetBytes(GetEncryptionKey().PadRight(32).Substring(0, 32));
-			aes.IV = iv;
+			aes.GenerateIV(); // fresh IV every save
 
-			ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
 			using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
-			using (CryptoStream cs = new CryptoStream(fs, encryptor, CryptoStreamMode.Write))
-			using (StreamWriter sw = new StreamWriter(cs))
 			{
-				sw.Write(plainText);
+				// 1️⃣ Write IV first
+				fs.Write(aes.IV, 0, aes.IV.Length);
+
+				ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
+				using (CryptoStream cs = new CryptoStream(fs, encryptor, CryptoStreamMode.Write))
+				using (StreamWriter sw = new StreamWriter(cs))
+				{
+					sw.Write(plainText);
+				}
 			}
 		}
 	}
 
 	private string LoadDecrypted()
 	{
-		using (Aes aes = Aes.Create())
+		using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read))
 		{
-			aes.Key = Encoding.UTF8.GetBytes(GetEncryptionKey().PadRight(32).Substring(0, 32));
-			aes.IV = iv;
-
-			ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
-			using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read))
-			using (CryptoStream cs = new CryptoStream(fs, decryptor, CryptoStreamMode.Read))
-			using (StreamReader sr = new StreamReader(cs))
+			using (Aes aes = Aes.Create())
 			{
-				return sr.ReadToEnd();
+				aes.Key = Encoding.UTF8.GetBytes(GetEncryptionKey().PadRight(32).Substring(0, 32));
+
+				// 1️⃣ Read IV from start of file
+				byte[] iv = new byte[16];
+				fs.Read(iv, 0, iv.Length);
+				aes.IV = iv;
+
+				ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
+				using (CryptoStream cs = new CryptoStream(fs, decryptor, CryptoStreamMode.Read))
+				using (StreamReader sr = new StreamReader(cs))
+				{
+					return sr.ReadToEnd();
+				}
 			}
 		}
 	}

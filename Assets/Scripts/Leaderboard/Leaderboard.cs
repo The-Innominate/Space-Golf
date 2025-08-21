@@ -11,7 +11,7 @@ public class Leaderboard : MonoBehaviour
 
 	[SerializeField] private TMP_InputField usernameInputField;
 
-	private string publicKey = "eca8d9679804a56f824e768a1d7ca7f23e62324fa6703737c67018057299a5b1";
+	private string publicKey = "ea66f841422eab70bbabf635eebfc346ead4d20dbdba22851613cf2780630a8a";
 
 	private void Start()
 	{
@@ -77,6 +77,16 @@ public class Leaderboard : MonoBehaviour
 		}
 
 		//TODO: check if the username is empty and check if all 18 levels are completed
+		if (string.IsNullOrEmpty(usernameInputField.text))
+		{
+			Debug.Log("Username cannot be empty.");
+			return;
+		}
+		if (levelCount < 18)
+		{
+			Debug.Log("Not all levels are completed.");
+			return;
+		}
 
 		SetLeaderboardEntry(usernameInputField.text, totalScore);
 	}
