@@ -3,106 +3,180 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using TMPro;
+using UnityEngine.EventSystems;
+using UnityEngine; // just to be explicit
 
 public class MainMenuScript : MonoBehaviour
 {
     public GameObject levelButtonPrefab;
-    public GameObject levelButtonContainer;
+    public GameObject levelButtonContainer;   // MUST have GridLayoutGroup in Inspector (or we add it)
     public GameObject shopButtonPrefab;
-    public GameObject shopButtonContainer;
+    public GameObject shopButtonContainer;    // MUST have GridLayoutGroup in Inspector (or we add it)
 
     public GameObject golfBallPrefab;
 
     private Transform cameraTransform;
     private Transform cameraDesiredLookAt;
 
-
-    // Start is called before the first frame update, it's a default Unity method
     private void Start()
     {
-        // reset the width of the scrolling level selection
-        levelButtonContainer.GetComponent<RectTransform>().offsetMin = new Vector2(0, levelButtonContainer.GetComponent<RectTransform>().offsetMin.y);
+        cameraTransform = Camera.main != null ? Camera.main.transform : null;
 
-		cameraTransform = Camera.main.transform;
-        /* The 'Resources.LoadAll' method is used to load all assets in a folder or file at the specified path.
+        var levelGrid = EnsureGrid(levelButtonContainer, 6, new Vector2(160, 160), new Vector2(12, 12));
+        var shopGrid = EnsureGrid(shopButtonContainer, 6, new Vector2(120, 120), new Vector2(10, 10));
 
-            If you don't have a 'Resources' folder created you won't be able to load the assets this way.
-        */
+        // Optional during testing. If you want to keep editor-placed children, comment these out.
+        ClearChildren(levelButtonContainer.transform);
+        ClearChildren(shopButtonContainer.transform);
+
+        // LEVEL BUTTONS
         Sprite[] thumbnails = Resources.LoadAll<Sprite>("UpdatedLevelSprites");
-
-        foreach (Sprite thumbnail in thumbnails)
+        Debug.Log($"Loaded level thumbnails: {thumbnails.Length}");
+        for (int i = 0; i < thumbnails.Length; i++)
         {
-            GameObject container = Instantiate(levelButtonPrefab) as GameObject;
-            container.GetComponent<Image>().sprite = thumbnail;
-            //make sure to set a 'transform' as a parent, since setting just a game object will not work
-            container.transform.SetParent(levelButtonContainer.transform, false);
-
-            //just parsing the name to a string
-            string sceneName = thumbnail.name;
-
-            // this adds increases the width of the scrolling container by the width of the container objects
-            // The width is 104 by guess and check because I don't know how to programatically do this sorry
-            levelButtonContainer.GetComponent<RectTransform>().offsetMin += Vector2.left * 104;
-
-            container.GetComponent<Button>().onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
-
-            // this is the score for the level
-            int HighScore = LevelHighScores.Instance.LoadFromJson("Begin", sceneName);
-            if (HighScore <= 0)
+            var thumbnail = thumbnails[i];
+            try
             {
-                container.GetComponentInChildren<TextMeshProUGUI>().text = "No Score";
+                GameObject container = Instantiate(levelButtonPrefab);
+                container.transform.SetParent(levelButtonContainer.transform, false);
+                NormalizeChild(container);
+
+                var img = container.GetComponent<Image>();
+                if (img != null)
+                {
+                    img.type = Image.Type.Simple;
+                    img.preserveAspect = true;
+                    img.sprite = thumbnail;
+                    img.enabled = true;
+                }
+
+                var shadow = container.GetComponent<Shadow>() ?? container.AddComponent<Shadow>();
+                shadow.effectColor = new Color(0f, 0f, 0f, 0.35f);
+                shadow.effectDistance = new Vector2(-6f, -6f);
+
+                string sceneName = thumbnail.name;
+
+                var btn = container.GetComponent<Button>();
+                if (btn != null)
+                {
+                    btn.onClick.RemoveAllListeners();
+                    btn.onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName));
+                }
+
+                // High score should never crash the loop
+                if (TryGetHighScore("Begin", sceneName, out int highScore))
+                {
+                    var scoreText = container.GetComponentInChildren<TextMeshProUGUI>(true);
+                    if (scoreText != null)
+                        scoreText.text = highScore <= 0 ? "No Score" : "Lowest Strokes: " + highScore.ToString();
+                }
             }
-            else
+            catch (System.Exception ex)
             {
-                container.GetComponentInChildren<TextMeshProUGUI>().text = "Lowest Strokes: " + HighScore.ToString();
+                Debug.LogError($"Level button spawn failed for '{thumbnail?.name}' at index {i}: {ex}");
+                continue;
             }
         }
 
+        // SHOP BUTTONS
         Sprite[] textures = Resources.LoadAll<Sprite>("GolfBall");
-        foreach (Sprite texture in textures)
+        Debug.Log($"Loaded shop textures: {textures.Length}");
+        for (int i = 0; i < textures.Length; i++)
         {
-            GameObject shopContainer = Instantiate(shopButtonPrefab) as GameObject;
-            shopContainer.GetComponent<Image>().sprite = texture;
-            shopContainer.transform.SetParent(shopButtonContainer.transform, false);
-            shopContainer.SetActive(true); // Ensure it's active
-            shopContainer.GetComponent<Button>().interactable = true; // Make sure it's interactable
-
-            string sceneName = texture.name;
-            //The guess and check this time is 39
-            shopButtonContainer.GetComponent<RectTransform>().offsetMin += Vector2.left * 39;
-
-            // FIX: capture the current texture.name by assigning to a local variable
-            string selectedName = texture.name;
-
-            shopContainer.GetComponent<Button>().onClick.AddListener(() =>
+            var texture = textures[i];
+            try
             {
-                PlayerPrefs.SetString("SelectedBallSkin", selectedName);
+                GameObject shopGO = Instantiate(shopButtonPrefab);
+                shopGO.transform.SetParent(shopButtonContainer.transform, false);
+                NormalizeChild(shopGO);
 
-				if (texture != null)
-				{
-					Color pixelColor = texture.texture.GetPixel(32,32);
-					Debug.Log("Color at (" + 32 + ", " + 32 + "): " + pixelColor);
-                    PlayerPrefs.SetFloat("SelectedBallSkinR", pixelColor.r);
-                    PlayerPrefs.SetFloat("SelectedBallSkinG", pixelColor.g);
-                    PlayerPrefs.SetFloat("SelectedBallSkinB", pixelColor.b);
-				}
-				else
-				{
-					Debug.LogError("Texture is null for sprite");
-				}
+                var img = shopGO.GetComponent<Image>();
+                if (img != null)
+                {
+                    img.type = Image.Type.Simple;
+                    img.preserveAspect = true;
+                    img.sprite = texture;
+                    img.enabled = true;
+                }
 
-				PlayerPrefs.Save();
-                Debug.Log("Selected ball skin: " + selectedName);
-            });
+                var shadow = shopGO.GetComponent<Shadow>() ?? shopGO.AddComponent<Shadow>();
+                shadow.effectColor = new Color(0f, 0f, 0f, 0.35f);
+                shadow.effectDistance = new Vector2(-6f, -6f);
+
+                shopGO.SetActive(true);
+
+                string selectedName = texture.name;
+                Sprite capturedTexture = texture;
+
+                var btn = shopGO.GetComponent<Button>();
+                if (btn != null)
+                {
+                    btn.interactable = true;
+                    btn.onClick.RemoveAllListeners();
+                    btn.onClick.AddListener(() =>
+                    {
+                        PlayerPrefs.SetString("SelectedBallSkin", selectedName);
+
+                        // Make this tolerant. If not readable, we still save the name.
+                        try
+                        {
+                            if (capturedTexture != null && capturedTexture.texture != null)
+                            {
+                                Color pixelColor = capturedTexture.texture.GetPixel(32, 32);
+                                PlayerPrefs.SetFloat("SelectedBallSkinR", pixelColor.r);
+                                PlayerPrefs.SetFloat("SelectedBallSkinG", pixelColor.g);
+                                PlayerPrefs.SetFloat("SelectedBallSkinB", pixelColor.b);
+                            }
+                        }
+                        catch (System.Exception pxEx)
+                        {
+                            Debug.LogWarning($"Pixel read failed for '{selectedName}': {pxEx.Message}");
+                        }
+
+                        PlayerPrefs.Save();
+                        Debug.Log("Selected ball skin: " + selectedName);
+                    });
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"Shop button spawn failed for '{texture?.name}' at index {i}: {ex}");
+                continue;
+            }
         }
 
-            // sets the scrolling level selection to be at the beginning (there is very likely a better way to do this)
-            levelButtonContainer.GetComponent<RectTransform>().localPosition = new Vector2(-levelButtonContainer.GetComponent<RectTransform>().localPosition.x, 0);
-            shopButtonContainer.GetComponent<RectTransform>().localPosition = new Vector2(-shopButtonContainer.GetComponent<RectTransform>().localPosition.x, 0);
+        ResetAnchored(levelButtonContainer);
+        ResetAnchored(shopButtonContainer);
 
-        //reinstantiate the timescale to 1
+        ForceRebuild(levelButtonContainer);
+        ForceRebuild(shopButtonContainer);
+
         Time.timeScale = 1;
     }
+
+    // Safe high-score getter that never kills the loop
+    private static bool TryGetHighScore(string category, string sceneName, out int score)
+    {
+        score = 0;
+        try
+        {
+            var inst = LevelHighScores.Instance;
+            if (inst == null)
+            {
+                Debug.LogWarning("LevelHighScores.Instance is null");
+                return false;
+            }
+
+            score = inst.LoadFromJson(category, sceneName);
+            return true;
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogWarning($"LoadFromJson failed for '{sceneName}': {ex.Message}");
+            return false;
+        }
+    }
+
 
     private void Update()
     {
@@ -111,9 +185,13 @@ public class MainMenuScript : MonoBehaviour
             Application.Quit();
         }
 
-        if(cameraDesiredLookAt != null)
+        if (cameraDesiredLookAt != null && cameraTransform != null)
         {
-            cameraTransform.rotation = Quaternion.Slerp(cameraTransform.rotation, cameraDesiredLookAt.rotation, 3 * Time.deltaTime);
+            cameraTransform.rotation = Quaternion.Slerp(
+                cameraTransform.rotation,
+                cameraDesiredLookAt.rotation,
+                3 * Time.deltaTime
+            );
         }
     }
 
@@ -129,8 +207,71 @@ public class MainMenuScript : MonoBehaviour
 
     private void ChangePlayerSkin()
     {
-        // This will be the implimentation:
-
         golfBallPrefab = Resources.Load<GameObject>("GolfBall/" + golfBallPrefab.name);
+    }
+
+    // ---------- Helpers ----------
+
+    private static GridLayoutGroup EnsureGrid(GameObject container, int columns, Vector2 defaultCell, Vector2 spacing)
+    {
+        var grid = container.GetComponent<GridLayoutGroup>();
+        if (grid == null) grid = container.AddComponent<GridLayoutGroup>();
+
+        grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        grid.constraintCount = columns;
+        if (grid.cellSize == Vector2.zero) grid.cellSize = defaultCell; // keep existing if already set in Inspector
+        grid.spacing = spacing;
+        grid.startAxis = GridLayoutGroup.Axis.Horizontal;
+        grid.childAlignment = TextAnchor.UpperLeft;
+
+        // Make sure the content RectTransform is normalized
+        var rt = container.GetComponent<RectTransform>();
+        if (rt != null)
+        {
+            rt.anchorMin = new Vector2(0, 1);
+            rt.anchorMax = new Vector2(0, 1);
+            rt.pivot = new Vector2(0, 1);   // top-left content works best with grids in ScrollRects
+            rt.localScale = Vector3.one;
+        }
+
+        return grid;
+    }
+
+    private static void NormalizeChild(GameObject child)
+    {
+        var rt = child.GetComponent<RectTransform>();
+        if (rt != null)
+        {
+            // Let the Grid control size; we only ensure sane anchors/scale
+            rt.anchorMin = new Vector2(0.5f, 0.5f);
+            rt.anchorMax = new Vector2(0.5f, 0.5f);
+            rt.pivot = new Vector2(0.5f, 0.5f);
+            rt.localScale = Vector3.one;
+            rt.anchoredPosition3D = Vector3.zero;
+        }
+    }
+
+    private static void ResetAnchored(GameObject go)
+    {
+        var rt = go.GetComponent<RectTransform>();
+        if (rt != null) rt.anchoredPosition = Vector2.zero;
+    }
+
+    private static void ForceRebuild(GameObject go)
+    {
+        // Reliable way to force layout to rebuild so all children show immediately in ScrollRect
+        Canvas.ForceUpdateCanvases();
+        var rt = go.GetComponent<RectTransform>();
+        if (rt != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(rt);
+        }
+        Canvas.ForceUpdateCanvases();
+    }
+
+    private static void ClearChildren(Transform t)
+    {
+        for (int i = t.childCount - 1; i >= 0; i--)
+            Object.Destroy(t.GetChild(i).gameObject);
     }
 }
