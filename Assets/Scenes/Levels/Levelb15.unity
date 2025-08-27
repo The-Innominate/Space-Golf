@@ -724,6 +724,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1386834610244173907, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1722172890695612697, guid: 58179abba338192438e9a21cf81ca380, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1266
@@ -764,16 +768,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3137651417282557189, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3886854243930079871, guid: 58179abba338192438e9a21cf81ca380, type: 3}
       propertyPath: m_Name
       value: UIObjects
       objectReference: {fileID: 0}
+    - target: {fileID: 3900442495243353575, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 2096514830}
     - target: {fileID: 4005598333073286168, guid: 58179abba338192438e9a21cf81ca380, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 2096514830}
+    - target: {fileID: 4954955030227780637, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190335
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954955030227780637, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361164855628708199, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7257918410742275506, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+    - {fileID: 6337464353163629562, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+    - {fileID: 2645931156211604123, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+    - {fileID: 5469769739688143130, guid: 58179abba338192438e9a21cf81ca380, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58179abba338192438e9a21cf81ca380, type: 3}

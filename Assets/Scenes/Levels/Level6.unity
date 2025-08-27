@@ -1037,6 +1037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIObjects
       objectReference: {fileID: 0}
+    - target: {fileID: 3900442495243353575, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1887491019}
     - target: {fileID: 4005598333073286168, guid: 58179abba338192438e9a21cf81ca380, type: 3}
       propertyPath: Player
       value: 
