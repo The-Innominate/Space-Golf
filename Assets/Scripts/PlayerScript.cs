@@ -1,6 +1,7 @@
 using Unity.Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -91,6 +92,9 @@ public class PlayerScript : MonoBehaviour
 		{
 			Touch touch = Input.GetTouch(0);
 
+			if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+				return;
+
 			if (touch.phase == TouchPhase.Began || (touch.phase == TouchPhase.Moved && !Dragging))
 			{
 				startDragging(touch);
@@ -104,6 +108,11 @@ public class PlayerScript : MonoBehaviour
 
 	private void MouseUpdate()
 	{
+		if(EventSystem.current.IsPointerOverGameObject())
+		{
+			return;
+		}
+
 		if (Input.GetMouseButtonDown(0) || (Input.GetMouseButton(0) && !Dragging))
 		{
 			startMouseDragging();

@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     public void OnPauseButtonClicked()
     {
-        if (GameIsPaused)
+		if (GameIsPaused)
         {
             Resume();
         }
