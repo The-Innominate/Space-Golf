@@ -108,7 +108,7 @@ public class PlayerScript : MonoBehaviour
 
 	private void MouseUpdate()
 	{
-		if(EventSystem.current.IsPointerOverGameObject())
+		if (EventSystem.current.IsPointerOverGameObject())
 		{
 			return;
 		}
@@ -226,7 +226,7 @@ public class PlayerScript : MonoBehaviour
 
 	private void arrowUpdate()
 	{
-		if (Input.touchCount > 0 && Dragging)
+		if (Input.touchCount > 0 && Dragging && rb.linearVelocity.magnitude < minimumSpeed)
 		{
 			Touch touch = Input.GetTouch(0);
 
@@ -241,7 +241,7 @@ public class PlayerScript : MonoBehaviour
 			float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 			arrow.transform.rotation = Quaternion.Euler(0, 0, angle);
 		}
-		else if (MouseDragging)
+		else if (MouseDragging && rb.linearVelocity.magnitude < minimumSpeed)
 		{
 			arrow.stemLength = (Vector3.Distance(transform.position, transform.position + (dragStartPoint - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0)))) / 5) * 4;
 			arrow.stemWidth = arrow.stemLength / 30;
