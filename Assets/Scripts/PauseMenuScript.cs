@@ -29,8 +29,8 @@ public class PauseMenu : MonoBehaviour
 
     public void OnQuitButtonClicked()
     {
-        
-    }
+        Application.Quit();
+	}
 
     public void OnResumeButtonClicked()
     {
