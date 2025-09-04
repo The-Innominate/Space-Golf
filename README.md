@@ -1,36 +1,30 @@
-# SpaceGolf - Coast to Coast™
+# SpaceGolf
 
-![SpaceGolf Logo](placeholder-logo.png)
+![SpaceGolf Logo](<img width="1320" height="572" alt="image" src="https://github.com/user-attachments/assets/4cb79457-3607-4702-999b-21b92347dbe4" />)
 
 ## What is SpaceGolf?
+Space Golf is a physics based puzzle action mobile game where you slingshot
 
-Space Golf - Coast to Coast™ is a physics-based puzzle-action mobile game where you slingshot a ball through space, dodging black holes, bouncing off planets, and pulling off orbital trick shots. It's simple to pick up, but if you want to master it? Good luck.
+ a ball through space, dodging black holes, bouncing off planets, and pulling off orbital trick shots. It's simple to pick up, but if you want to master it? Good luck.
 
-**"One ball. Infinite gravity. Master the chaos."**
+**"One ball. Infinite gravity. And a hole."**
 
 ## Team Members
 
 - **Jacob Church** - Lead Developer & Game Designer
-- **Cameron Sadusky** - Lead Developer & Physics Engineer
+- **Cameron Sadusky** - Lead Developer & Game Designer
 
 ## Features
 
 ### Gameplay
-- **Swipe & Tap Controls** – Launch your ball, adjust trajectory, and let gravity do the work
+- **Swipe & Tap Controls** – Launch your ball, and let gravity do the work
 - **Realistic Physics** – Slingshot around planets and black holes, but don't get sucked in
 - **Multi-Path Levels** – Find your own way to the goal: fast and risky, or slow and calculated
-- **Hazards & Challenges** – Asteroid belts, collapsing stars, wormholes, and moving targets
-
-### Why You'll Love It
-- **Satisfying Ball Physics** – Watching your ball zip through gravity wells never gets old
-- **Challenge Modes** – Trick shots, survival runs, and infinite space mazes
-- **Customization** – Unlock skins like meteor balls, plasma orbs, trails, and glowing void spheres
-- **Leaderboard Competition** – Show off insane shots and beat your friends' best times
-- **Power-Up Boosts** – Temporary trajectory previews or retries for when you need them
+- **Hazards & Challenges** – Asteroid belts, Suns, wormholes, and moving targets
 
 ## How to Play
 
-1. **Launch Your Ball** – Swipe to shoot it into space, swipe again to change trajectory
+1. **Launch Your Ball** – Swipe to shoot it into space
 2. **Use Gravity to Your Advantage** – Aim for planets, time your bounces, and avoid the black holes
 3. **Style on Everyone** – Pull off trick shots, speedruns, and dominate your friends
 4. **Hit the Goal** – Sounds easy. It's not.
