@@ -1,6 +1,6 @@
 # SpaceGolf
 
-![SpaceGolf Logo](<img width="1320" height="572" alt="image" src="https://github.com/user-attachments/assets/4cb79457-3607-4702-999b-21b92347dbe4" />)
+<img width="563" height="443" alt="SleepyFruitLogo-removebg-preview" src="https://github.com/user-attachments/assets/46b11eb4-7445-4e4f-abce-37d4c319f7d8" />
 
 ## What is SpaceGolf?
 Space Golf is a physics based puzzle action mobile game where you slingshot
@@ -69,15 +69,13 @@ Space Golf is a physics based puzzle action mobile game where you slingshot
 
 ## Screenshots
 
-![Main Menu]()<img width="664" height="279" alt="MainPage" src="https://github.com/user-attachments/assets/d8c92303-7fb7-48c1-803a-f0a23c50365d" />
+<img width="664" height="279" alt="MainPage" src="https://github.com/user-attachments/assets/d8c92303-7fb7-48c1-803a-f0a23c50365d" />
 
-*Main menu with cosmic background and intuitive navigation*
+*Main menu starting page*
 
-![Gameplay](placeholder-gameplay.png)  
+![SpaceGolfScreenShot](https://github.com/user-attachments/assets/e85fb789-86d4-44fb-8b89-4e78dd4b5c60)
+
 *Physics-based ball trajectory around planets and obstacles*
-
-![Level Select](placeholder-level-select.png)
-*Galaxy map showing available levels and progression*
 
 ![Trick Shot](placeholder-trick-shot.png)
 *Epic orbital maneuver showcasing the physics system*
