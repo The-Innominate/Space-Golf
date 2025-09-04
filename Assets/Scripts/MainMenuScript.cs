@@ -237,7 +237,8 @@ public class MainMenuScript : MonoBehaviour
     public void LookAtMenu(Transform menuTransform)
     {
         cameraDesiredLookAt = menuTransform;
-    }
+        print("Camera desired look at set to: " + menuTransform.name);
+	}
 
     private void ChangePlayerSkin()
     {

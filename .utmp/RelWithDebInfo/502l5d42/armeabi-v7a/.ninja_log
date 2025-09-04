@@ -1,0 +1,23 @@
+# ninja log v5
+8	1345	7786730858637502	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	fe04e70cd48d55e3
+58	252	7786730847679366	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	51489ac1e088a89c
+34	1225	7786730857373744	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	311fa7bef7c0a3f
+253	497	7786730850153547	C:/School/Q10/Software/SpaceGolf/Space-Golf/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/502l5d42/obj/armeabi-v7a/libswappywrapper.so	a62efd0d66036c9b
+20	887	7786730853940925	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d1de0a2cc7c63339
+50	1039	7786730855550087	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d677267c2d784611
+14	898	7786730854110910	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	98de410abb18be3b
+27	930	7786730854451692	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4436f88305ea96d
+1	1077	7786730855940055	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	1d684231fa5ff7b2
+42	1007	7786730855228840	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	dc1bf19516c68043
+1345	1475	7786730860011894	C:/School/Q10/Software/SpaceGolf/Space-Golf/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/502l5d42/obj/armeabi-v7a/libgame.so	a830f270716b198c
+49	195	7786739339074022	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	51489ac1e088a89c
+195	381	7786739340891046	C:/School/Q10/Software/SpaceGolf/Space-Golf/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/502l5d42/obj/armeabi-v7a/libswappywrapper.so	a62efd0d66036c9b
+33	720	7786739344228802	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4436f88305ea96d
+2	725	7786739344281204	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d1de0a2cc7c63339
+11	744	7786739344510895	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	98de410abb18be3b
+20	798	7786739345048818	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	dc1bf19516c68043
+40	851	7786739345509752	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d677267c2d784611
+7	856	7786739345595238	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	1d684231fa5ff7b2
+26	1022	7786739347322877	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	311fa7bef7c0a3f
+16	1112	7786739348224069	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	fe04e70cd48d55e3
+1112	1215	7786739349274937	C:/School/Q10/Software/SpaceGolf/Space-Golf/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/502l5d42/obj/armeabi-v7a/libgame.so	a830f270716b198c
