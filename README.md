@@ -69,7 +69,7 @@ Space Golf is a physics based puzzle action mobile game where you slingshot
 
 ## Screenshots
 
-![Main Menu](placeholder-main-menu.png)
+![Main Menu](MainPage.png)
 *Main menu with cosmic background and intuitive navigation*
 
 ![Gameplay](placeholder-gameplay.png)  
