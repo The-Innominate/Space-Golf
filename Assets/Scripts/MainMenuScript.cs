@@ -22,8 +22,8 @@ public class MainMenuScript : MonoBehaviour
     {
         cameraTransform = Camera.main != null ? Camera.main.transform : null;
 
-        var levelGrid = EnsureGrid(levelButtonContainer, 6, new Vector2(160, 160), new Vector2(12, 12));
-        var shopGrid = EnsureGrid(shopButtonContainer, 6, new Vector2(120, 120), new Vector2(10, 10));
+        //var levelGrid = EnsureGrid(levelButtonContainer, 6, new Vector2(160, 160), new Vector2(12, 12));
+        //var shopGrid = EnsureGrid(shopButtonContainer, 6, new Vector2(120, 120), new Vector2(10, 10));
 
         // Optional during testing. If you want to keep editor-placed children, comment these out.
         ClearChildren(levelButtonContainer.transform);
@@ -70,6 +70,8 @@ public class MainMenuScript : MonoBehaviour
                     if (scoreText != null)
                         scoreText.text = highScore <= 0 ? "No Score" : "Lowest Strokes: " + highScore.ToString();
                 }
+
+                Debug.Log($"Created level button {i}: {thumbnail.name}");
             }
             catch (System.Exception ex)
             {
@@ -137,6 +139,8 @@ public class MainMenuScript : MonoBehaviour
                         Debug.Log("Selected ball skin: " + selectedName);
                     });
                 }
+
+                Debug.Log($"Created shop button {i}: {texture.name}");
             }
             catch (System.Exception ex)
             {
@@ -145,6 +149,10 @@ public class MainMenuScript : MonoBehaviour
             }
         }
 
+        // MAKE SURE CONTAINERS ARE PROPERLY SIZED AND POSITIONED
+        //FixContainerSizing(levelButtonContainer, levelGrid);
+        //FixContainerSizing(shopButtonContainer, shopGrid);
+
         ResetAnchored(levelButtonContainer);
         ResetAnchored(shopButtonContainer);
 
@@ -152,6 +160,33 @@ public class MainMenuScript : MonoBehaviour
         ForceRebuild(shopButtonContainer);
 
         Time.timeScale = 1;
+
+        Debug.Log("MainMenu setup complete!");
+    }
+
+    // NEW: Fix container sizing so buttons actually show up
+    private static void FixContainerSizing(GameObject container, GridLayoutGroup grid)
+    {
+        var rt = container.GetComponent<RectTransform>();
+        if (rt == null) return;
+
+        // Calculate how much space the grid needs
+        int rows = Mathf.CeilToInt((float)container.transform.childCount / grid.constraintCount);
+        float totalWidth = (grid.cellSize.x * grid.constraintCount) + (grid.spacing.x * (grid.constraintCount - 1));
+        float totalHeight = (grid.cellSize.y * rows) + (grid.spacing.y * (rows - 1));
+
+        // Add padding
+        totalWidth += grid.padding.left + grid.padding.right;
+        totalHeight += grid.padding.top + grid.padding.bottom;
+
+        // Set the container size
+        rt.sizeDelta = new Vector2(totalWidth, totalHeight);
+
+        // Make sure it's positioned properly
+        rt.anchoredPosition = Vector2.zero;
+        rt.localScale = Vector3.one;
+
+        Debug.Log($"Fixed sizing for {container.name}: {totalWidth}x{totalHeight} (children: {container.transform.childCount})");
     }
 
     // Safe high-score getter that never kills the loop
@@ -176,7 +211,6 @@ public class MainMenuScript : MonoBehaviour
             return false;
         }
     }
-
 
     private void Update()
     {
@@ -223,17 +257,9 @@ public class MainMenuScript : MonoBehaviour
         grid.spacing = spacing;
         grid.startAxis = GridLayoutGroup.Axis.Horizontal;
         grid.childAlignment = TextAnchor.UpperLeft;
+        grid.padding = new RectOffset(10, 10, 10, 10); // Smaller padding
 
-        // Make sure the content RectTransform is normalized
-        var rt = container.GetComponent<RectTransform>();
-        if (rt != null)
-        {
-            rt.anchorMin = new Vector2(0, 1);
-            rt.anchorMax = new Vector2(0, 1);
-            rt.pivot = new Vector2(0, 1);   // top-left content works best with grids in ScrollRects
-            rt.localScale = Vector3.one;
-        }
-
+        Debug.Log($"Grid setup for {container.name}: {columns} columns, cell size {defaultCell}");
         return grid;
     }
 
