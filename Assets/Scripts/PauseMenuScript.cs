@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     public void OnPauseButtonClicked()
     {
-        if (GameIsPaused)
+		if (GameIsPaused)
         {
             Resume();
         }
@@ -29,8 +29,8 @@ public class PauseMenu : MonoBehaviour
 
     public void OnQuitButtonClicked()
     {
-        
-    }
+        Application.Quit();
+	}
 
     public void OnResumeButtonClicked()
     {

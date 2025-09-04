@@ -982,6 +982,10 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1875194059}
+    - target: {fileID: 4286927972989187393, guid: 58179abba338192438e9a21cf81ca380, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 5269510429182607875, guid: 58179abba338192438e9a21cf81ca380, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
