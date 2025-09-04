@@ -1,6 +1,6 @@
 # SpaceGolf
 
-<img width="563" height="443" alt="SleepyFruitLogo-removebg-preview" src="https://github.com/user-attachments/assets/46b11eb4-7445-4e4f-abce-37d4c319f7d8" />
+<img width="250" height="250" alt="SleepyFruitLogo-removebg-preview" src="https://github.com/user-attachments/assets/46b11eb4-7445-4e4f-abce-37d4c319f7d8" />
 
 ## What is SpaceGolf?
 Space Golf is a physics based puzzle action mobile game where you slingshot
@@ -73,27 +73,22 @@ Space Golf is a physics based puzzle action mobile game where you slingshot
 
 *Main menu starting page*
 
-![SpaceGolfScreenShot](https://github.com/user-attachments/assets/e85fb789-86d4-44fb-8b89-4e78dd4b5c60)
+<img width="664" height="279" alt="MainPage" src="https://github.com/user-attachments/assets/e85fb789-86d4-44fb-8b89-4e78dd4b5c60" />
+<img width="664" height="279" alt="MainPage" src="https://github.com/user-attachments/assets/6cf8149d-e594-42d0-b5e7-9af67f43f79a" />
 
 *Physics-based ball trajectory around planets and obstacles*
 
-![Trick Shot](placeholder-trick-shot.png)
-*Epic orbital maneuver showcasing the physics system*
-
-![Customization](placeholder-customization.png)
-*Ball skins and trail effects customization screen*
 
 ## Development Notes
 
 This project showcases advanced mobile game development techniques including:
 - Real-time physics simulation with gravitational fields
-- Intuitive touch-based trajectory controls  
-- Procedural level generation
+- Intuitive touch-based trajectory controls 
 - Performance optimization for mobile devices
 - Social features and competitive gameplay
 
 ---
 
-**Ready to master the cosmos?** Download SpaceGolf and start your interplanetary journey today!
+**Support Space Golf** Download and start your interplanetary journey today!
 
 *Now stop reading and start slingshotting!*
