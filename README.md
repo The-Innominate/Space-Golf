@@ -13,6 +13,7 @@ Space Golf is a physics based puzzle action mobile game where you slingshot
 
 - **Jacob Church** - Lead Developer & Game Designer
 - **Cameron Sadusky** - Lead Developer & Game Designer
+- **Maxmilion Flaugher** - Game Devloper & Game Designer
 
 ## Features
 
