@@ -29,6 +29,10 @@ public class MainMenuScript : MonoBehaviour
         ClearChildren(levelButtonContainer.transform);
         ClearChildren(shopButtonContainer.transform);
 
+        //this is to move the container down by half the height of itself, that way button 1 starts top left
+        //levelButtonContainer.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -levelButtonContainer.GetComponent<RectTransform>().rect.height / 2);
+        
+
         // LEVEL BUTTONS
         Sprite[] thumbnails = Resources.LoadAll<Sprite>("UpdatedLevelSprites");
         Debug.Log($"Loaded level thumbnails: {thumbnails.Length}");
@@ -155,6 +159,10 @@ public class MainMenuScript : MonoBehaviour
 
         ResetAnchored(levelButtonContainer);
         ResetAnchored(shopButtonContainer);
+
+        //Hardcoded 'starting position' of the level button container - this will just move the container down by -120 on the Y axis
+        levelButtonContainer.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -120);
+        shopButtonContainer.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -100);
 
         ForceRebuild(levelButtonContainer);
         ForceRebuild(shopButtonContainer);
